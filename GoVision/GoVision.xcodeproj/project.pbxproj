@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A15C2320E715C9E5CB019 /* libPods-GoVision.a */; };
 		D8EE5FF21DFB013B00E39ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF11DFB013B00E39ABB /* main.m */; };
 		D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */; };
 		D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF71DFB013B00E39ABB /* ViewController.m */; };
 		D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FF91DFB013B00E39ABB /* Main.storyboard */; };
 		D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */; };
 		D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */; };
+		D8EE60081DFB04B100E39ABB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE60071DFB04B100E39ABB /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.release.xcconfig"; sourceTree = "<group>"; };
+		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
 		D8EE5FED1DFB013B00E39ABB /* GoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EE5FF11DFB013B00E39ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8EE5FFF1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8EE60011DFB013B00E39ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AD2386D16B8BF56EE100FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */,
+				20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D8EE5FE41DFB013B00E39ABB = {
 			isa = PBXGroup;
 			children = (
 				D8EE5FEF1DFB013B00E39ABB /* GoVision */,
 				D8EE5FEE1DFB013B00E39ABB /* Products */,
+				6AD2386D16B8BF56EE100FEA /* Pods */,
+				E46CDC89B3F435559E8B1B6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +92,18 @@
 		D8EE5FF01DFB013B00E39ABB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE60071DFB04B100E39ABB /* Podfile */,
 				D8EE5FF11DFB013B00E39ABB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46CDC89B3F435559E8B1B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462A15C2320E715C9E5CB019 /* libPods-GoVision.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8EE60041DFB013B00E39ABB /* Build configuration list for PBXNativeTarget "GoVision" */;
 			buildPhases = (
+				DED5A198015AABF1BFDCCC1B /* [CP] Check Pods Manifest.lock */,
 				D8EE5FE91DFB013B00E39ABB /* Sources */,
 				D8EE5FEA1DFB013B00E39ABB /* Frameworks */,
 				D8EE5FEB1DFB013B00E39ABB /* Resources */,
+				78938BACC411ED76FD3F5DE6 /* [CP] Embed Pods Frameworks */,
+				D270A92ADD82AB85CF7AB72B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +170,60 @@
 			files = (
 				D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */,
 				D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */,
+				D8EE60081DFB04B100E39ABB /* Podfile in Resources */,
 				D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78938BACC411ED76FD3F5DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoVision/Pods-GoVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D270A92ADD82AB85CF7AB72B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoVision/Pods-GoVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED5A198015AABF1BFDCCC1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8EE5FE91DFB013B00E39ABB /* Sources */ = {
@@ -269,6 +348,7 @@
 		};
 		D8EE60051DFB013B00E39ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
@@ -281,6 +361,7 @@
 		};
 		D8EE60061DFB013B00E39ABB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
