@@ -15,6 +15,7 @@
 		D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */; };
 		D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */; };
 		D8EE60081DFB04B100E39ABB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE60071DFB04B100E39ABB /* Podfile */; };
+		D8EE600C1DFB081D00E39ABB /* Rambafile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE600B1DFB081D00E39ABB /* Rambafile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D8EE5FFF1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8EE60011DFB013B00E39ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D8EE600B1DFB081D00E39ABB /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		D8EE5FEF1DFB013B00E39ABB /* GoVision */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE60091DFB07D000E39ABB /* Classes */,
 				D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */,
 				D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */,
 				D8EE5FF61DFB013B00E39ABB /* ViewController.h */,
@@ -92,10 +95,26 @@
 		D8EE5FF01DFB013B00E39ABB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE600B1DFB081D00E39ABB /* Rambafile */,
 				D8EE60071DFB04B100E39ABB /* Podfile */,
 				D8EE5FF11DFB013B00E39ABB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8EE60091DFB07D000E39ABB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE600A1DFB07F400E39ABB /* VIPER */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D8EE600A1DFB07F400E39ABB /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VIPER;
 			sourceTree = "<group>";
 		};
 		E46CDC89B3F435559E8B1B6C /* Frameworks */ = {
@@ -171,6 +190,7 @@
 				D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */,
 				D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */,
 				D8EE60081DFB04B100E39ABB /* Podfile in Resources */,
+				D8EE600C1DFB081D00E39ABB /* Rambafile in Resources */,
 				D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +411,7 @@
 				D8EE60061DFB013B00E39ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
