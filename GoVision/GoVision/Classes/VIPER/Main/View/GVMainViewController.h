@@ -16,4 +16,8 @@
 
 @property (nonatomic, strong) id<GVMainViewOutput> output;
 
+- (IBAction)cameraButtonWasPressed:(id)sender;
+
+- (IBAction)galleryButtonWasPressed:(id)sender;
+
 @end

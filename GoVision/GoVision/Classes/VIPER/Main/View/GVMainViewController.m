@@ -20,6 +20,16 @@
 	[self.output didTriggerViewReadyEvent];
 }
 
+#pragma mark - IBActions
+
+- (void)cameraButtonWasPressed:(id)sender {
+    
+}
+
+- (void)galleryButtonWasPressed:(id)sender {
+    
+}
+
 #pragma mark - Методы GVMainViewInput
 
 - (void)setupInitialState {

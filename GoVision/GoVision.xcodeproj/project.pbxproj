@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078D101B8FE4EC7BB4D4107E /* GVMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9116C49AF9F91D2AEB85EB38 /* GVMainAssembly.m */; };
-		2EAB49E3046B4D601EF1CB83 /* GVMainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1001B89C1D3EDF4A4339109A /* GVMainInteractor.m */; };
-		326EE0767A60BBCC99E6BE05 /* GVMainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E9F0576D346AD1A1DC74AE /* GVMainPresenter.m */; };
 		4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A15C2320E715C9E5CB019 /* libPods-GoVision.a */; };
-		737713FCBE61B700E32BA2CD /* GVMainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CB7172EE99E977C6B76F7 /* GVMainRouter.m */; };
 		D8EE5FF21DFB013B00E39ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF11DFB013B00E39ABB /* main.m */; };
 		D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */; };
 		D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF71DFB013B00E39ABB /* ViewController.m */; };
@@ -20,28 +16,17 @@
 		D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */; };
 		D8EE60081DFB04B100E39ABB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE60071DFB04B100E39ABB /* Podfile */; };
 		D8EE600C1DFB081D00E39ABB /* Rambafile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE600B1DFB081D00E39ABB /* Rambafile */; };
-		FEF0AA36869108EC9D546D2A /* GVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268A119205E2E78720798FC /* GVMainViewController.m */; };
+		D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */; };
+		D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE60111DFB09E100E39ABB /* GVMainViewController.m */; };
+		D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */; };
+		D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */; };
+		D8EE60211DFB09FD00E39ABB /* GVMainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0268A119205E2E78720798FC /* GVMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVMainViewController.m; path = ../../Classes/VIPER/Main/View/GVMainViewController.m; sourceTree = "<group>"; };
-		1001B89C1D3EDF4A4339109A /* GVMainInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVMainInteractor.m; path = ../../Classes/VIPER/Main/Interactor/GVMainInteractor.m; sourceTree = "<group>"; };
-		16A7A4B293A2A4A6A1B0D307 /* GVMainInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainInteractor.h; path = ../../Classes/VIPER/Main/Interactor/GVMainInteractor.h; sourceTree = "<group>"; };
-		176EB509AF2A16D2A5308A40 /* GVMainInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorOutput.h; path = ../../Classes/VIPER/Main/Interactor/GVMainInteractorOutput.h; sourceTree = "<group>"; };
-		2056EBA0D94EEB038467F29B /* GVMainPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainPresenter.h; path = ../../Classes/VIPER/Main/Presenter/GVMainPresenter.h; sourceTree = "<group>"; };
 		20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.release.xcconfig"; sourceTree = "<group>"; };
-		20E9F0576D346AD1A1DC74AE /* GVMainPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVMainPresenter.m; path = ../../Classes/VIPER/Main/Presenter/GVMainPresenter.m; sourceTree = "<group>"; };
-		27F2E05F0C12DD8EA91A3110 /* GVMainViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainViewInput.h; path = ../../Classes/VIPER/Main/View/GVMainViewInput.h; sourceTree = "<group>"; };
-		378097CA80FEA4E3FCCAD82E /* GVMainAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainAssembly.h; path = ../../Classes/VIPER/Main/Assembly/GVMainAssembly.h; sourceTree = "<group>"; };
 		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47086052401DCEE6F591E2B4 /* GVMainRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainRouter.h; path = ../../Classes/VIPER/Main/Router/GVMainRouter.h; sourceTree = "<group>"; };
-		4BBEC614BF84471B2535D479 /* GVMainInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorInput.h; path = ../../Classes/VIPER/Main/Interactor/GVMainInteractorInput.h; sourceTree = "<group>"; };
 		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
-		9116C49AF9F91D2AEB85EB38 /* GVMainAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVMainAssembly.m; path = ../../Classes/VIPER/Main/Assembly/GVMainAssembly.m; sourceTree = "<group>"; };
-		A7040B5FBF7209C330188F01 /* GVMainModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainModuleInput.h; path = ../../Classes/VIPER/Main/Presenter/GVMainModuleInput.h; sourceTree = "<group>"; };
-		A8566CEAEE7CFBBC6142E912 /* GVMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainViewController.h; path = ../../Classes/VIPER/Main/View/GVMainViewController.h; sourceTree = "<group>"; };
-		A92FDE44E75132F3D3501D9A /* GVMainViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainViewOutput.h; path = ../../Classes/VIPER/Main/View/GVMainViewOutput.h; sourceTree = "<group>"; };
-		C14CB7172EE99E977C6B76F7 /* GVMainRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVMainRouter.m; path = ../../Classes/VIPER/Main/Router/GVMainRouter.m; sourceTree = "<group>"; };
 		D8EE5FED1DFB013B00E39ABB /* GoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EE5FF11DFB013B00E39ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +39,22 @@
 		D8EE60011DFB013B00E39ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		D8EE600B1DFB081D00E39ABB /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
-		F48CB53EF70DF87D31E97901 /* GVMainRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVMainRouterInput.h; path = ../../Classes/VIPER/Main/Router/GVMainRouterInput.h; sourceTree = "<group>"; };
+		D8EE600D1DFB09D600E39ABB /* GVMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainAssembly.h; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.h; sourceTree = SOURCE_ROOT; };
+		D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainAssembly.m; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.m; sourceTree = SOURCE_ROOT; };
+		D8EE60101DFB09E100E39ABB /* GVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewController.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewController.h; sourceTree = SOURCE_ROOT; };
+		D8EE60111DFB09E100E39ABB /* GVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainViewController.m; path = GoVision/Classes/VIPER/Main/View/GVMainViewController.m; sourceTree = SOURCE_ROOT; };
+		D8EE60121DFB09E100E39ABB /* GVMainViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewInput.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60131DFB09E100E39ABB /* GVMainViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewOutput.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewOutput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60151DFB09EB00E39ABB /* GVMainModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainModuleInput.h; path = GoVision/Classes/VIPER/Main/Presenter/GVMainModuleInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60161DFB09EB00E39ABB /* GVMainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainPresenter.h; path = GoVision/Classes/VIPER/Main/Presenter/GVMainPresenter.h; sourceTree = SOURCE_ROOT; };
+		D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainPresenter.m; path = GoVision/Classes/VIPER/Main/Presenter/GVMainPresenter.m; sourceTree = SOURCE_ROOT; };
+		D8EE60191DFB09F300E39ABB /* GVMainInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractor.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractor.h; sourceTree = SOURCE_ROOT; };
+		D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainInteractor.m; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractor.m; sourceTree = SOURCE_ROOT; };
+		D8EE601B1DFB09F300E39ABB /* GVMainInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorInput.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractorInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE601C1DFB09F300E39ABB /* GVMainInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorOutput.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractorOutput.h; sourceTree = SOURCE_ROOT; };
+		D8EE601E1DFB09FD00E39ABB /* GVMainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainRouter.h; path = GoVision/Classes/VIPER/Main/Router/GVMainRouter.h; sourceTree = SOURCE_ROOT; };
+		D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainRouter.m; path = GoVision/Classes/VIPER/Main/Router/GVMainRouter.m; sourceTree = SOURCE_ROOT; };
+		D8EE60201DFB09FD00E39ABB /* GVMainRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainRouterInput.h; path = GoVision/Classes/VIPER/Main/Router/GVMainRouterInput.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +72,10 @@
 		177C1DCF3EE026939ECFC090 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				4BBEC614BF84471B2535D479 /* GVMainInteractorInput.h */,
-				176EB509AF2A16D2A5308A40 /* GVMainInteractorOutput.h */,
-				16A7A4B293A2A4A6A1B0D307 /* GVMainInteractor.h */,
-				1001B89C1D3EDF4A4339109A /* GVMainInteractor.m */,
+				D8EE601B1DFB09F300E39ABB /* GVMainInteractorInput.h */,
+				D8EE601C1DFB09F300E39ABB /* GVMainInteractorOutput.h */,
+				D8EE60191DFB09F300E39ABB /* GVMainInteractor.h */,
+				D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -83,10 +83,10 @@
 		27C0D4A276D54742E461BABD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				27F2E05F0C12DD8EA91A3110 /* GVMainViewInput.h */,
-				A92FDE44E75132F3D3501D9A /* GVMainViewOutput.h */,
-				A8566CEAEE7CFBBC6142E912 /* GVMainViewController.h */,
-				0268A119205E2E78720798FC /* GVMainViewController.m */,
+				D8EE60121DFB09E100E39ABB /* GVMainViewInput.h */,
+				D8EE60131DFB09E100E39ABB /* GVMainViewOutput.h */,
+				D8EE60101DFB09E100E39ABB /* GVMainViewController.h */,
+				D8EE60111DFB09E100E39ABB /* GVMainViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -94,9 +94,9 @@
 		6214CB94965A3C32745F2615 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				A7040B5FBF7209C330188F01 /* GVMainModuleInput.h */,
-				2056EBA0D94EEB038467F29B /* GVMainPresenter.h */,
-				20E9F0576D346AD1A1DC74AE /* GVMainPresenter.m */,
+				D8EE60151DFB09EB00E39ABB /* GVMainModuleInput.h */,
+				D8EE60161DFB09EB00E39ABB /* GVMainPresenter.h */,
+				D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -113,9 +113,9 @@
 		A5682F7C96F88D7BF2DDC947 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				F48CB53EF70DF87D31E97901 /* GVMainRouterInput.h */,
-				47086052401DCEE6F591E2B4 /* GVMainRouter.h */,
-				C14CB7172EE99E977C6B76F7 /* GVMainRouter.m */,
+				D8EE60201DFB09FD00E39ABB /* GVMainRouterInput.h */,
+				D8EE601E1DFB09FD00E39ABB /* GVMainRouter.h */,
+				D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 		B1F968D6C7905469FEF9CBC4 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				378097CA80FEA4E3FCCAD82E /* GVMainAssembly.h */,
-				9116C49AF9F91D2AEB85EB38 /* GVMainAssembly.m */,
+				D8EE600D1DFB09D600E39ABB /* GVMainAssembly.h */,
+				D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			children = (
 				D8EE600A1DFB07F400E39ABB /* VIPER */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D8EE600A1DFB07F400E39ABB /* VIPER */ = {
@@ -188,6 +188,7 @@
 				F175F0561C53A9E192887FA8 /* Main */,
 			);
 			name = VIPER;
+			path = Classes/VIPER;
 			sourceTree = "<group>";
 		};
 		E46CDC89B3F435559E8B1B6C /* Frameworks */ = {
@@ -207,7 +208,8 @@
 				177C1DCF3EE026939ECFC090 /* Interactor */,
 				A5682F7C96F88D7BF2DDC947 /* Router */,
 			);
-			path = Main;
+			name = Main;
+			path = GoVision/Classes/VIPER/Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,12 +339,12 @@
 			files = (
 				D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */,
 				D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */,
+				D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */,
+				D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */,
+				D8EE60211DFB09FD00E39ABB /* GVMainRouter.m in Sources */,
 				D8EE5FF21DFB013B00E39ABB /* main.m in Sources */,
-				078D101B8FE4EC7BB4D4107E /* GVMainAssembly.m in Sources */,
-				FEF0AA36869108EC9D546D2A /* GVMainViewController.m in Sources */,
-				326EE0767A60BBCC99E6BE05 /* GVMainPresenter.m in Sources */,
-				2EAB49E3046B4D601EF1CB83 /* GVMainInteractor.m in Sources */,
-				737713FCBE61B700E32BA2CD /* GVMainRouter.m in Sources */,
+				D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */,
+				D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

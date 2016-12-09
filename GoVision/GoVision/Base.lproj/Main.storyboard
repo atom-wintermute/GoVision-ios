@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GVMainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,6 +38,9 @@
                                             <constraint firstAttribute="height" constant="120" id="jLi-9C-fdn"/>
                                         </constraints>
                                         <state key="normal" title="Camera Button"/>
+                                        <connections>
+                                            <action selector="cameraButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fev-E1-I2a"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kg0-lN-7t0">
                                         <constraints>
@@ -45,6 +48,9 @@
                                             <constraint firstAttribute="width" constant="120" id="o3y-RY-cxn"/>
                                         </constraints>
                                         <state key="normal" title="Gallery Button"/>
+                                        <connections>
+                                            <action selector="galleryButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xPN-kk-ELb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
