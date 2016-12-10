@@ -50,6 +50,10 @@
 }
 
 - (void)updateViewWithResult:(GLAnalizeResult)result {
+    [self enableButton:self.analizeButton enable:YES];
+    [self enableButton:self.cameraButton enable:YES];
+    [self enableButton:self.galleryButton enable:YES];
+    
     switch (result) {
         case GLAnalizeResultUnlikely:
             self.resultLabel.textColor = [UIColor greenColor];
