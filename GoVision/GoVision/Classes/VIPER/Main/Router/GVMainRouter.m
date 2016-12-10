@@ -14,4 +14,23 @@
 
 #pragma mark - Методы GVMainRouterInput
 
+- (void)showImagePickerCamera {
+    UIImagePickerController *imagePicker = [UIImagePickerController new];
+    imagePicker.delegate = self.imagePickerDelegate;
+    imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    imagePicker.cameraCaptureMode = UIImagePickerControllerCameraCaptureModePhoto;
+    
+    UIViewController *rootViewController = (UIViewController *)self.transitionHandler;
+    [rootViewController presentViewController:imagePicker animated:YES completion:nil];
+}
+
+- (void)showImagePickerGallery {
+    UIImagePickerController *imagePicker = [UIImagePickerController new];
+    imagePicker.delegate = self.imagePickerDelegate;
+    imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    UIViewController *rootViewController = (UIViewController *)self.transitionHandler;
+    [rootViewController presentViewController:imagePicker animated:YES completion:nil];
+}
+
 @end

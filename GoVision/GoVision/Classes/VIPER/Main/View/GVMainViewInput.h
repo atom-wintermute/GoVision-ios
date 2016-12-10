@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "GVImageAnalizerService.h"
+
 @protocol GVMainViewInput <NSObject>
 
 /**
@@ -16,5 +18,9 @@
  Метод настраивает начальный стейт view
  */
 - (void)setupInitialState;
+
+- (void)showImage:(UIImage *)image;
+
+- (void)updateViewWithResult:(GLAnalizeResult)result;
 
 @end

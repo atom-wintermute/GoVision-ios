@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol GVMainInteractorInput <NSObject>
+
+- (void)postImageOnServer:(UIImage *)image;
+
+- (void)postImageURLOnServer:(NSURL *)imageURL;
 
 @end

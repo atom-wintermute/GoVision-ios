@@ -17,4 +17,8 @@
  */
 - (void)didTriggerViewReadyEvent;
 
+- (void)didTriggerCameraButtonPressedEvent;
+
+- (void)didTriggerGalleryButtonPressedEvent;
+
 @end

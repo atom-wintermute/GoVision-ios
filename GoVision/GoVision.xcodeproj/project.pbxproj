@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A15C2320E715C9E5CB019 /* libPods-GoVision.a */; };
+		D82702CF1DFC4C1A00962111 /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */; };
+		D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */ = {isa = PBXBuildFile; fileRef = D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */; };
+		D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */; };
 		D8EE5FF21DFB013B00E39ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF11DFB013B00E39ABB /* main.m */; };
 		D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */; };
 		D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF71DFB013B00E39ABB /* ViewController.m */; };
@@ -27,6 +30,15 @@
 		20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.release.xcconfig"; sourceTree = "<group>"; };
 		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
+		D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrientationFix.h"; path = "Extension/UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrientationFix.m"; path = "Extension/UIImage+OrientationFix.m"; sourceTree = "<group>"; };
+		D82702D21DFCA30000962111 /* GLBlockHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GLBlockHelper.h; path = Helper/GLBlockHelper.h; sourceTree = "<group>"; };
+		D85523BA1DFC282500C941B7 /* GVImageAnalizerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerService.h; path = Service/ImageAnalizer/GVImageAnalizerService.h; sourceTree = "<group>"; };
+		D85523BB1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerServiceImplemenation.h; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.h; sourceTree = "<group>"; };
+		D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVImageAnalizerServiceImplemenation.m; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.m; sourceTree = "<group>"; };
+		D8E95BA21DFC356E0026E7A5 /* GVServiceAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVServiceAssembly.h; path = Assembly/GVServiceAssembly.h; sourceTree = "<group>"; };
+		D8E95BA31DFC36300026E7A5 /* GVServiceAssemblyImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVServiceAssemblyImplementation.h; path = Assembly/GVServiceAssemblyImplementation.h; sourceTree = "<group>"; };
+		D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVServiceAssemblyImplementation.m; path = Assembly/GVServiceAssemblyImplementation.m; sourceTree = "<group>"; };
 		D8EE5FED1DFB013B00E39ABB /* GoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EE5FF11DFB013B00E39ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +141,51 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
+		D82702CC1DFC4C0600962111 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */,
+				D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		D82702D01DFC562A00962111 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D82702D21DFCA30000962111 /* GLBlockHelper.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D85523B81DFC27E200C941B7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D85523B91DFC27F100C941B7 /* ImageAnalizer */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D85523B91DFC27F100C941B7 /* ImageAnalizer */ = {
+			isa = PBXGroup;
+			children = (
+				D85523BA1DFC282500C941B7 /* GVImageAnalizerService.h */,
+				D85523BB1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.h */,
+				D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */,
+			);
+			name = ImageAnalizer;
+			sourceTree = "<group>";
+		};
+		D8E95BA11DFC35480026E7A5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D8E95BA21DFC356E0026E7A5 /* GVServiceAssembly.h */,
+				D8E95BA31DFC36300026E7A5 /* GVServiceAssemblyImplementation.h */,
+				D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
 		D8EE5FE41DFB013B00E39ABB = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +234,10 @@
 		D8EE60091DFB07D000E39ABB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D8E95BA11DFC35480026E7A5 /* Assembly */,
+				D82702CC1DFC4C0600962111 /* Extension */,
+				D82702D01DFC562A00962111 /* Helper */,
+				D85523B81DFC27E200C941B7 /* Service */,
 				D8EE600A1DFB07F400E39ABB /* VIPER */,
 			);
 			path = Classes;
@@ -241,13 +302,13 @@
 		D8EE5FE51DFB013B00E39ABB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Rambler&Co";
 				TargetAttributes = {
 					D8EE5FEC1DFB013B00E39ABB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7SMPM83ZV6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -341,9 +402,12 @@
 				D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */,
 				D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */,
 				D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */,
+				D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */,
+				D82702CF1DFC4C1A00962111 /* UIImage+OrientationFix.m in Sources */,
 				D8EE60211DFB09FD00E39ABB /* GVMainRouter.m in Sources */,
 				D8EE5FF21DFB013B00E39ABB /* main.m in Sources */,
 				D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */,
+				D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */,
 				D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +452,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -435,6 +500,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -463,11 +529,14 @@
 			baseConfigurationReference = 65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
 				INFOPLIST_FILE = GoVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1db91c98-63fb-4bdc-bf68-84a96a9e6c25";
+				PROVISIONING_PROFILE_SPECIFIER = "GoVision Development";
 			};
 			name = Debug;
 		};
@@ -476,11 +545,14 @@
 			baseConfigurationReference = 20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
 				INFOPLIST_FILE = GoVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39412e77-d2b9-486e-b0f6-2f8062c73245";
+				PROVISIONING_PROFILE_SPECIFIER = "GoVision AdHoc";
 			};
 			name = Release;
 		};
@@ -494,7 +566,7 @@
 				D8EE60031DFB013B00E39ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D8EE60041DFB013B00E39ABB /* Build configuration list for PBXNativeTarget "GoVision" */ = {
 			isa = XCConfigurationList;
@@ -503,7 +575,7 @@
 				D8EE60061DFB013B00E39ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
