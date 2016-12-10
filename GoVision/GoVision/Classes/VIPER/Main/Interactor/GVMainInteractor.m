@@ -22,8 +22,4 @@
                                  }];
 }
 
-- (void)postImageURLOnServer:(NSURL *)imageURL {
-//    [self.imageAnalizerService postImageURLOnServer:imageURL];
-}
-
 @end

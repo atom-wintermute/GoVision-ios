@@ -13,6 +13,4 @@
 
 - (void)postImageOnServer:(UIImage *)image;
 
-- (void)postImageURLOnServer:(NSURL *)imageURL;
-
 @end
