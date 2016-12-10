@@ -9,9 +9,11 @@
 #import "GVMainInteractorInput.h"
 
 @protocol GVMainInteractorOutput;
+@protocol GVImageAnalizerService;;
 
 @interface GVMainInteractor : NSObject <GVMainInteractorInput>
 
 @property (nonatomic, weak) id<GVMainInteractorOutput> output;
+@property (nonatomic, strong) id<GVImageAnalizerService> imageAnalizerService;
 
 @end

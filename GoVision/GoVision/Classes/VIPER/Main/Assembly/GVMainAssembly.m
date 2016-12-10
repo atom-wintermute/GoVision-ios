@@ -13,6 +13,8 @@
 #import "GVMainPresenter.h"
 #import "GVMainRouter.h"
 
+#import "GVServiceAssembly.h"
+
 #import <ViperMcFlurry/ViperMcFlurry.h>
 
 @implementation GVMainAssembly
@@ -32,6 +34,8 @@
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(output)
                                                     with:[self presenterMain]];
+                              [definition injectProperty:@selector(imageAnalizerService)
+                                                    with:[self.serviceAssembly imageAnalizerService]];
                           }];
 }
 
