@@ -16,6 +16,8 @@
 
 @property (nonatomic, strong) id<GVMainViewOutput> output;
 
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+
 - (IBAction)cameraButtonWasPressed:(id)sender;
 
 - (IBAction)galleryButtonWasPressed:(id)sender;

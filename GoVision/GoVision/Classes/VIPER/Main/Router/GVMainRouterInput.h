@@ -12,4 +12,6 @@
 
 - (void)showImagePickerCamera;
 
+- (void)showImagePickerGallery;
+
 @end

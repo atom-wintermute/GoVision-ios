@@ -18,4 +18,6 @@
  */
 - (void)configureModule;
 
+- (void)showImage:(UIImage *)image;
+
 @end

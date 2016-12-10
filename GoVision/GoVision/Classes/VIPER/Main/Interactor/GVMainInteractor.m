@@ -14,4 +14,8 @@
 
 #pragma mark - Методы GVMainInteractorInput
 
+- (void)postImageOnServer:(UIImage *)image {
+    
+}
+
 @end

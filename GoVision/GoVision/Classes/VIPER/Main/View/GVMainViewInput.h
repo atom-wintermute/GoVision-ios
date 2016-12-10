@@ -17,4 +17,6 @@
  */
 - (void)setupInitialState;
 
+- (void)showImage:(UIImage *)image;
+
 @end

@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Необходимо для фото-материалов</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Необходимо для фото-материалов</string>
 </dict>
 </plist>

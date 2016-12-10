@@ -12,6 +12,9 @@
 #import "GVMainInteractorInput.h"
 #import "GVMainRouterInput.h"
 
+#import "AssetsLibrary/AssetsLibrary.h"
+#import <Photos/Photos.h>
+
 @implementation GVMainPresenter
 
 #pragma mark - Методы GVMainModuleInput
@@ -30,12 +33,44 @@
     [self.router showImagePickerCamera];
 }
 
+- (void)didTriggerGalleryButtonPressedEvent {
+    [self.router showImagePickerGallery];
+}
+
 #pragma mark - Методы GVMainInteractorOutput
 
 #pragma mark - Методы UIImagePickerControllerDelegate
 
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
-    NSLog(@"imagePicker: didFinishPickingMediaWithInfo");
+- (void)imagePickerController:(UIImagePickerController *)picker
+didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    
+    if (info[UIImagePickerControllerOriginalImage]) {
+        UIImage *image = info[UIImagePickerControllerOriginalImage];
+        NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
+        
+        if (imageURL) {
+            [self.view showImage:image];
+            [self.interactor postImageOnServer:image];
+//            [self.delegate imagePickerController:self
+//                              didFinishWithImage:image];
+            return;
+        }
+        
+        // assets
+        PHPhotoLibrary *library = [PHPhotoLibrary sharedPhotoLibrary];
+        [library performChanges:^{
+            [PHAssetChangeRequest creationRequestForAssetFromImage:image];
+        } completionHandler:^(BOOL success, NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"Error: %@", error);
+            } else {
+                [self.view showImage:image];
+//                [self.delegate imagePickerController:self
+//                                  didFinishWithImage:image];
+            }
+        }];
+    }
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {

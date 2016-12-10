@@ -19,4 +19,6 @@
 
 - (void)didTriggerCameraButtonPressedEvent;
 
+- (void)didTriggerGalleryButtonPressedEvent;
+
 @end

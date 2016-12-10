@@ -27,13 +27,17 @@
 }
 
 - (void)galleryButtonWasPressed:(id)sender {
-    
+    [self.output didTriggerGalleryButtonPressedEvent];
 }
 
 #pragma mark - Методы GVMainViewInput
 
 - (void)setupInitialState {
 	// В этом методе происходит настройка параметров view, зависящих от ее жизненого цикла (создание элементов, анимации и пр.)
+}
+
+- (void)showImage:(UIImage *)image {
+    self.imageView.image = image;
 }
 
 @end

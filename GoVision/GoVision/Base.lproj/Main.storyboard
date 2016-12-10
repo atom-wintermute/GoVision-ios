@@ -75,6 +75,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="OPC-JT-cbk" secondAttribute="trailing" constant="32" id="zvp-Cf-ZQ6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="OPC-JT-cbk" id="XnD-YE-01S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
