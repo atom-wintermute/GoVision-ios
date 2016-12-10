@@ -18,9 +18,16 @@
 
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
 @property (nonatomic, weak) IBOutlet UILabel *resultLabel;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *activity;
+
+@property (nonatomic, weak) IBOutlet UIButton *cameraButton;
+@property (nonatomic, weak) IBOutlet UIButton *galleryButton;
+@property (nonatomic, weak) IBOutlet UIButton *analizeButton;
 
 - (IBAction)cameraButtonWasPressed:(id)sender;
 
 - (IBAction)galleryButtonWasPressed:(id)sender;
+
+- (IBAction)analizeButtonWasPressed:(id)sender;
 
 @end

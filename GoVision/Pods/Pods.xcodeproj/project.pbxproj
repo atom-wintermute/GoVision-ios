@@ -534,7 +534,7 @@
 		00F7E829601C18F821FED65F8A0695A3 /* NSNullTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSNullTypeConverter.m; path = Source/TypeConversion/Converters/NSNullTypeConverter.m; sourceTree = "<group>"; };
 		010C0B92B137A61B1CBF63ECB5880DBD /* RamblerEmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RamblerEmbedSegue.h; path = Pod/Classes/EmbedSegue/RamblerEmbedSegue.h; sourceTree = "<group>"; };
 		01129971DFD333D9782A3D8F70C3ADFC /* TyphoonStoryboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonStoryboard.m; path = Source/ios/Storyboard/TyphoonStoryboard.m; sourceTree = "<group>"; };
-		0145E17DC5F1127E3185635E2B1E56D3 /* libEasyMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEasyMapping.a; path = libEasyMapping.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0145E17DC5F1127E3185635E2B1E56D3 /* libEasyMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyMapping.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C0B285C1B044F27AD5AAA71B13B3F5 /* NIMutableTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMutableTableViewModel.h; path = src/models/src/NIMutableTableViewModel.h; sourceTree = "<group>"; };
 		01DF4523134C11C72BE70282DF79EB36 /* TyphoonObjectWithCustomInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonObjectWithCustomInjection.h; path = Source/Definition/Internal/TyphoonObjectWithCustomInjection.h; sourceTree = "<group>"; };
 		029802D6BE5CE0B79834DFDA1371A724 /* TyphoonBundledImageTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonBundledImageTypeConverter.m; path = Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.m; sourceTree = "<group>"; };
@@ -561,7 +561,7 @@
 		0D78D016ABD7DE8DD0CC1FEEEDE93C24 /* TyphoonInjectionByComponentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByComponentFactory.h; path = Source/Definition/Injections/TyphoonInjectionByComponentFactory.h; sourceTree = "<group>"; };
 		0E351A32E5B8D7752E3DEA5126557400 /* TyphoonViewControllerNibResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonViewControllerNibResolver.h; path = Source/ios/Configuration/Resolver/TyphoonViewControllerNibResolver.h; sourceTree = "<group>"; };
 		0E62246CB36906F165D9CAEC33B088E0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		0EF34B2B60FD82E08EC213C6051C9968 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF34B2B60FD82E08EC213C6051C9968 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1C66F8B094C8FA15E162AF332D1F6F /* TyphoonInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjection.h; path = Source/Definition/Injections/TyphoonInjection.h; sourceTree = "<group>"; };
 		1158EF7F19FAF9514BC9BF172CA26281 /* NIImageUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIImageUtilities.h; path = src/core/src/NIImageUtilities.h; sourceTree = "<group>"; };
 		1185083738563CE5CF43F9F39BFF2827 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -617,7 +617,7 @@
 		2CFFDA02D5026986D38CAC9EEA886EB4 /* TyphoonTestUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonTestUtils.h; path = Source/Test/TestUtils/TyphoonTestUtils.h; sourceTree = "<group>"; };
 		2DC321716517F5A53F9EFD276D24CA2A /* TyphoonInjectedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectedObject.m; path = Source/Definition/AutoInjection/TyphoonInjectedObject.m; sourceTree = "<group>"; };
 		2DE283A729566E2E08A2ACCF8996CE5D /* TyphoonInjectionByRuntimeArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByRuntimeArgument.h; path = Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.h; sourceTree = "<group>"; };
-		2E944FEC514D424B637F0D201EEA4D03 /* libXMLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXMLReader.a; path = libXMLReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E944FEC514D424B637F0D201EEA4D03 /* libXMLReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMLReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA9783BC78FDFDFD6F025E554EA317B /* TyphoonStackElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonStackElement.m; path = Source/Factory/Internal/TyphoonStackElement.m; sourceTree = "<group>"; };
 		2EE898F8A81BFAC5CF88C8FB9DE56D8C /* TyphoonInjectionDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionDefinition.m; path = Source/Definition/Internal/TyphoonInjectionDefinition.m; sourceTree = "<group>"; };
 		2F1C0111B9ED435FB39002DEFF05E0D6 /* NINavigationAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NINavigationAppearance.h; path = src/core/src/NINavigationAppearance.h; sourceTree = "<group>"; };
@@ -671,7 +671,7 @@
 		48CD0965ECBA204C877358231CD20555 /* NICellCatalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NICellCatalog.h; path = src/models/src/NICellCatalog.h; sourceTree = "<group>"; };
 		4A06C9E4C2BB8B4276E2E572FB4B8096 /* NIMutableTableViewModel+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NIMutableTableViewModel+Private.h"; path = "src/models/src/NIMutableTableViewModel+Private.h"; sourceTree = "<group>"; };
 		4AE8642D737A9FFA095152491C39DFB2 /* TyphoonInjectionByType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionByType.h; path = Source/Definition/Injections/TyphoonInjectionByType.h; sourceTree = "<group>"; };
-		4B0392B769860E6CB50AED0AEAC9555F /* libTyphoon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTyphoon.a; path = libTyphoon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0392B769860E6CB50AED0AEAC9555F /* libTyphoon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTyphoon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3DA98CC1A22E1E53BE72CA654EA2EB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		4B750FD35EC53FED66D6F3932AFCDE42 /* TyphoonInjectionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionContext.h; path = Source/Definition/Injections/TyphoonInjectionContext.h; sourceTree = "<group>"; };
 		4BEA5E2FCE0BF04981E6D2E268224B9C /* Typhoon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Typhoon-dummy.m"; sourceTree = "<group>"; };
@@ -732,7 +732,7 @@
 		687F776E8D3239B2BD73F7D468BDC4DF /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		698778BDCB433DB0BFA13D958FEF1F3F /* TyphoonMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonMethod.h; path = Source/Definition/Method/TyphoonMethod.h; sourceTree = "<group>"; };
 		69B8DB585569A2B8FE031AFC63E25728 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		6B90AA61B1220EF3CEF57030047726F4 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPureLayout.a; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B90AA61B1220EF3CEF57030047726F4 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF7F638A328559011D83CC53AE467EF /* Pods-GoVision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoVision-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E40C94C1AAA005EF1A9D26E13C4C939 /* NSInvocation+TCFInstanceBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+TCFInstanceBuilder.m"; path = "Source/Factory/Internal/NSInvocation+TCFInstanceBuilder.m"; sourceTree = "<group>"; };
 		7056CAA2424571DBEBE8C366E901E097 /* TyphoonUIColorTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonUIColorTypeConverter.m; path = Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.m; sourceTree = "<group>"; };
@@ -742,7 +742,7 @@
 		718AE5268522956F5A88816DA765A41D /* UIStoryboardSegue+RamblerCrossStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboardSegue+RamblerCrossStoryboardSegue.h"; path = "Pod/Classes/CrossStoryboardSegue/UIStoryboardSegue+RamblerCrossStoryboardSegue.h"; sourceTree = "<group>"; };
 		71B5A70672C5AB23F1B6C5E642CDF3AB /* XMLReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLReader-prefix.pch"; sourceTree = "<group>"; };
 		7236D285D788BB2650B81C66B71E9697 /* TyphoonStartup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonStartup.m; path = Source/Configuration/Startup/TyphoonStartup.m; sourceTree = "<group>"; };
-		726E84871B4BCFF6A0528FF52D524DA8 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		726E84871B4BCFF6A0528FF52D524DA8 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C6303F4A08CC8BE5E1B85CC7CE1D0E /* NSObject+DeallocNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DeallocNotification.m"; path = "Source/Utils/NSObject+DeallocNotification.m"; sourceTree = "<group>"; };
 		7406195E39F26D70AF59196518EF7DE1 /* TyphoonCallStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonCallStack.m; path = Source/Factory/Internal/TyphoonCallStack.m; sourceTree = "<group>"; };
 		74967912E369A3722A024A594D62014A /* RamblerEmbedSegueViewContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RamblerEmbedSegueViewContainer.h; path = Pod/Classes/EmbedSegue/RamblerEmbedSegueViewContainer.h; sourceTree = "<group>"; };
@@ -751,7 +751,7 @@
 		75EFFF23A9441D743AD911B6A3BC645E /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		7674C092DEDDFA64D1D575F41047D555 /* TyphoonInjectionByCurrentRuntimeArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByCurrentRuntimeArguments.m; path = Source/Definition/Injections/TyphoonInjectionByCurrentRuntimeArguments.m; sourceTree = "<group>"; };
 		77E8469E3849B45D21E7A694C8C1E600 /* EKCoreDataImporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCoreDataImporter.m; path = EasyMapping/EKCoreDataImporter.m; sourceTree = "<group>"; };
-		782265F6882F52443F7F16384AEE0FEF /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		782265F6882F52443F7F16384AEE0FEF /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7851767F8E1F8D93F8388C235119E77C /* TyphoonPrimitiveTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPrimitiveTypeConverter.m; path = Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.m; sourceTree = "<group>"; };
 		789C14ED2CC55A723593145FBB3AB14C /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
 		793F6AEF8283B00883D67DD3F54AA6EF /* TyphoonPassThroughTypeConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPassThroughTypeConverter.m; path = Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.m; sourceTree = "<group>"; };
@@ -801,7 +801,7 @@
 		905C69C618079E4746CBCD2EE81A84BE /* TyphoonPropertyStyleConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonPropertyStyleConfiguration.h; path = Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.h; sourceTree = "<group>"; };
 		90B84873D231F754A3CE73B7915D98B1 /* TyphoonStoryboardProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonStoryboardProvider.m; path = Source/ios/Storyboard/TyphoonStoryboardProvider.m; sourceTree = "<group>"; };
 		91672BE2D2445A54BFDE6AF63361B914 /* TyphoonInjectionDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectionDefinition.h; path = Source/Definition/Internal/TyphoonInjectionDefinition.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		93A9672A4F18197B4C3E033AB1E6BA42 /* NIInMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIInMemoryCache.h; path = src/core/src/NIInMemoryCache.h; sourceTree = "<group>"; };
 		95DCA71511930D7617070735BCD18722 /* EKFieldMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKFieldMapping.h; path = EasyMapping/EKFieldMapping.h; sourceTree = "<group>"; };
 		96719C5872EA2570430E98F89E473EE7 /* TyphoonPathResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonPathResource.m; path = Source/Configuration/Resource/TyphoonPathResource.m; sourceTree = "<group>"; };
@@ -815,7 +815,7 @@
 		9AE7D9D6BDA880E5A902FDC2AAC2937B /* EasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyMapping.h; path = EasyMapping/EasyMapping.h; sourceTree = "<group>"; };
 		9B4C8355F95C29595C9B2111BFC90892 /* TyphoonDefinition+Infrastructure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TyphoonDefinition+Infrastructure.m"; path = "Source/Definition/Internal/TyphoonDefinition+Infrastructure.m"; sourceTree = "<group>"; };
 		9B79240169D6FBBF2347F7BED91A2BB9 /* EasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyMapping.xcconfig; sourceTree = "<group>"; };
-		9C4A6C15357A534415F21B6F9671B408 /* libNimbus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNimbus.a; path = libNimbus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4A6C15357A534415F21B6F9671B408 /* libNimbus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBCBB01882A3B032D838AC12FA18F0B /* XMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		9D067F864EAE4FF8654A4AE2C0440754 /* TyphoonInjectedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonInjectedObject.h; path = Source/Definition/AutoInjection/TyphoonInjectedObject.h; sourceTree = "<group>"; };
 		9D4E7F838ABAFF8C28D5997B36C02F4D /* TyphoonParentReferenceHydratingPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonParentReferenceHydratingPostProcessor.h; path = Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.h; sourceTree = "<group>"; };
@@ -840,7 +840,7 @@
 		A477B66CA0776FD170CA281C6B6F50FF /* Nimbus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimbus.xcconfig; sourceTree = "<group>"; };
 		A4D5DEE990FCC07B30CBB698134201D0 /* TyphoonInjectionByComponentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonInjectionByComponentFactory.m; path = Source/Definition/Injections/TyphoonInjectionByComponentFactory.m; sourceTree = "<group>"; };
 		A4FF87D4964936EF349A2B0532183BF0 /* EKCoreDataImporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCoreDataImporter.h; path = EasyMapping/EKCoreDataImporter.h; sourceTree = "<group>"; };
-		A512426E218189D3801588D5E742E691 /* libViperMcFlurry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libViperMcFlurry.a; path = libViperMcFlurry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A512426E218189D3801588D5E742E691 /* libViperMcFlurry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libViperMcFlurry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A535D1563B7068CC516BFF12BBCF1DE2 /* NIPreprocessorMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIPreprocessorMacros.h; path = src/core/src/NIPreprocessorMacros.h; sourceTree = "<group>"; };
 		A563E428350C7CC2F433EA07BE7BC91A /* Nimbus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimbus-dummy.m"; sourceTree = "<group>"; };
 		A5A6470DC55E8A743B62C3D86A6D59F6 /* RamblerSegues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RamblerSegues.h; path = Pod/Classes/RamblerSegues.h; sourceTree = "<group>"; };
@@ -882,14 +882,14 @@
 		B6D58F7532BEEA342F6CB099279B01A7 /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapping.h; path = EasyMapping/EKManagedObjectMapping.h; sourceTree = "<group>"; };
 		B7A23360CBB5665AABB77EEDB1BE653A /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		B7C3F010E099D0756729AD8142AEDF8C /* TyphoonAssemblyAdviser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonAssemblyAdviser.m; path = Source/Factory/Internal/TyphoonAssemblyAdviser.m; sourceTree = "<group>"; };
-		B82BDF4F49319E0B1F83C0875300B772 /* libAFNetworkActivityLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworkActivityLogger.a; path = libAFNetworkActivityLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BDF4F49319E0B1F83C0875300B772 /* libAFNetworkActivityLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworkActivityLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA982256D91FB151A4CF4B0F4CE15161 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		BA99BE1CC81B11F51B4D1D2F18C7275D /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		BB245C2C5EBDF8B830D31CEF619010CF /* TyphoonDefinitionRegisterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonDefinitionRegisterer.h; path = Source/Factory/TyphoonDefinitionRegisterer.h; sourceTree = "<group>"; };
 		BC1ABDC90E74AE02103A69CB46124CD9 /* RamblerInitialAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RamblerInitialAssembly.h; path = Code/Production/AssemblyCollector/RamblerInitialAssembly.h; sourceTree = "<group>"; };
 		BC464F9A64F760A4FCCC61793509685C /* TyphoonCollaboratingAssembliesCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonCollaboratingAssembliesCollector.m; path = Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.m; sourceTree = "<group>"; };
 		BC95A45286DF688E40537AD363B8EC31 /* TyphoonAbstractInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonAbstractInjection.m; path = Source/Definition/Injections/TyphoonAbstractInjection.m; sourceTree = "<group>"; };
-		BD4E961EB5764D0B3786E9EE7C101713 /* libRamblerTyphoonUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRamblerTyphoonUtils.a; path = libRamblerTyphoonUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4E961EB5764D0B3786E9EE7C101713 /* libRamblerTyphoonUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRamblerTyphoonUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE07A35CDBC264F5F7C6322ECAACC475 /* NIDataStructures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIDataStructures.h; path = src/core/src/NIDataStructures.h; sourceTree = "<group>"; };
 		BEB534F5D3F92CC59A703D2E71ED4ACD /* TyphoonConfigPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonConfigPostProcessor.m; path = Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.m; sourceTree = "<group>"; };
 		C0270D220CB4AAB1E7B6BC6CCB89B618 /* TyphoonAssemblyBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TyphoonAssemblyBuilder.m; path = Source/Factory/Internal/TyphoonAssemblyBuilder.m; sourceTree = "<group>"; };
@@ -901,7 +901,7 @@
 		C2EE2623FF378D1AC1BABC66AE9DDD36 /* NIState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIState.m; path = src/core/src/NIState.m; sourceTree = "<group>"; };
 		C43763B92084DA0CA560BAC27D2DE695 /* Typhoon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Typhoon-prefix.pch"; sourceTree = "<group>"; };
 		C443DE72E904B10920B37F204935183A /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
-		C6C250EE120BA0C715FF295DA0E80103 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GoVision.a"; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C250EE120BA0C715FF295DA0E80103 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AD85AB5094356EFBF28C648F0633BB /* EmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EmbedSegue.h; path = Pod/Classes/EmbedSegue.h; sourceTree = "<group>"; };
 		C813DC6D834BC771131091D353FCEFBC /* TyphoonRuntimeArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonRuntimeArguments.h; path = Source/Factory/Internal/TyphoonRuntimeArguments.h; sourceTree = "<group>"; };
 		C82F5F0BADBCA8EE041AB62AFFB6618B /* NICommonMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NICommonMetrics.h; path = src/core/src/NICommonMetrics.h; sourceTree = "<group>"; };
@@ -959,7 +959,7 @@
 		ED38BA61A67BB45BF68C4D3BA1F2F55F /* TyphoonAssemblyActivator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonAssemblyActivator.h; path = Source/Factory/Assembly/TyphoonAssemblyActivator.h; sourceTree = "<group>"; };
 		ED789938C9B19E67926C1A41CC9C28E0 /* RamblerSegues-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RamblerSegues-prefix.pch"; sourceTree = "<group>"; };
 		EEEC3FA63D99A75EF87B104D602A5C13 /* TyphoonStartup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonStartup.h; path = Source/Configuration/Startup/TyphoonStartup.h; sourceTree = "<group>"; };
-		EF17A5A1F49960D930D8B95D33856BAC /* libRamblerSegues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRamblerSegues.a; path = libRamblerSegues.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF17A5A1F49960D930D8B95D33856BAC /* libRamblerSegues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRamblerSegues.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8EE0ADE6BD7A523CF70F70D38C6BAC /* TyphoonNSNumberTypeConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonNSNumberTypeConverter.h; path = Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.h; sourceTree = "<group>"; };
 		F06E6578B38E53724470AE3B2B0BC5AE /* TyphoonStoryboardProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TyphoonStoryboardProvider.h; path = Source/ios/Storyboard/TyphoonStoryboardProvider.h; sourceTree = "<group>"; };
 		F187DBA5B21CB90EF17A368AC24C1C6C /* AFNetworkActivityLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworkActivityLogger-prefix.pch"; sourceTree = "<group>"; };
@@ -1111,7 +1111,6 @@
 				45F4A452228FE7DAA0AAB9D8C800C2F4 /* Reachability.m */,
 				E215FE4301129956459E4EBC84D36A14 /* Support Files */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -1142,7 +1141,6 @@
 				8D88502026CF1608B4115FF903376B90 /* EmbedSegue */,
 				3B7D0E217A4DCB4995D97126DA24B402 /* Support Files */,
 			);
-			name = RamblerSegues;
 			path = RamblerSegues;
 			sourceTree = "<group>";
 		};
@@ -1298,7 +1296,6 @@
 				1281E32B2D87F1661AD5A8827BDA841D /* ViperMcFlurry.h */,
 				B912561C7A45163850AB9FE809640E53 /* Support Files */,
 			);
-			name = ViperMcFlurry;
 			path = ViperMcFlurry;
 			sourceTree = "<group>";
 		};
@@ -1423,7 +1420,6 @@
 				5CCD063A8F9465D29ECECD243BF0CDD5 /* Support Files */,
 				66E6FE452B774354E7E9A1CB6E230BF2 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1455,7 +1451,6 @@
 				199FF52C61433ED016600C87EDC895FF /* Core */,
 				D86D28C32F61ABF15083E1BAB603DB70 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1484,7 +1479,6 @@
 				29F15B3C21DF53EC592EE038477AF560 /* XMLReader.m */,
 				D2E6F17284CCECA77D533E8FA75280AF /* Support Files */,
 			);
-			name = XMLReader;
 			path = XMLReader;
 			sourceTree = "<group>";
 		};
@@ -1726,7 +1720,6 @@
 				992F8527BA16EEC752CE4D9D631846F8 /* no-arc */,
 				FBEBFBE52D233A4B4B67F23933D92504 /* Support Files */,
 			);
-			name = Typhoon;
 			path = Typhoon;
 			sourceTree = "<group>";
 		};
@@ -1792,7 +1785,6 @@
 				687F776E8D3239B2BD73F7D468BDC4DF /* PureLayoutDefines.h */,
 				9DA21A3A478FE96C2795B79ED0C3B23B /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -1823,7 +1815,6 @@
 				EA5A5232BB510C67EA0DB92EB73AC9C3 /* NSArray+FlattenArray.m */,
 				B293DD8330326C5BCBBCCE2F3D305FA1 /* Support Files */,
 			);
-			name = EasyMapping;
 			path = EasyMapping;
 			sourceTree = "<group>";
 		};
@@ -1863,7 +1854,6 @@
 				FCC7AA0EA1054121962DAD0D789108E4 /* AFNetworkActivityLogger.m */,
 				50ECD73A9CF74B7625312EECDB88B1A5 /* Support Files */,
 			);
-			name = AFNetworkActivityLogger;
 			path = AFNetworkActivityLogger;
 			sourceTree = "<group>";
 		};
@@ -1873,7 +1863,6 @@
 				73A723D4386B691093DCE2C6117F3B1F /* AssemblyCollector */,
 				701E3C440784999E49BD3BF04B3EF390 /* Support Files */,
 			);
-			name = RamblerTyphoonUtils;
 			path = RamblerTyphoonUtils;
 			sourceTree = "<group>";
 		};
@@ -1895,7 +1884,6 @@
 				41069EE0C7FA350ED414913BBA0C4335 /* Models */,
 				E7226546B7725B474109A0D10170BD77 /* Support Files */,
 			);
-			name = Nimbus;
 			path = Nimbus;
 			sourceTree = "<group>";
 		};

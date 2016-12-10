@@ -21,4 +21,6 @@
 
 - (void)didTriggerGalleryButtonPressedEvent;
 
+- (void)didTriggerAnalizeButtonPressedEvent;
+
 @end

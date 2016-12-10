@@ -13,7 +13,6 @@
 		D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */; };
 		D8EE5FF21DFB013B00E39ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF11DFB013B00E39ABB /* main.m */; };
 		D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */; };
-		D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF71DFB013B00E39ABB /* ViewController.m */; };
 		D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FF91DFB013B00E39ABB /* Main.storyboard */; };
 		D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */; };
 		D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */; };
@@ -30,9 +29,10 @@
 		20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.release.xcconfig"; sourceTree = "<group>"; };
 		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
+		D806BE711DFCB478008829CE /* GoVision-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GoVision-Prefix.pch"; path = "Supporting Files/GoVision-Prefix.pch"; sourceTree = "<group>"; };
 		D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrientationFix.h"; path = "Extension/UIImage+OrientationFix.h"; sourceTree = "<group>"; };
 		D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrientationFix.m"; path = "Extension/UIImage+OrientationFix.m"; sourceTree = "<group>"; };
-		D82702D21DFCA30000962111 /* GLBlockHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GLBlockHelper.h; path = Helper/GLBlockHelper.h; sourceTree = "<group>"; };
+		D82702D21DFCA30000962111 /* GVBlockHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVBlockHelper.h; path = Helper/GVBlockHelper.h; sourceTree = "<group>"; };
 		D85523BA1DFC282500C941B7 /* GVImageAnalizerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerService.h; path = Service/ImageAnalizer/GVImageAnalizerService.h; sourceTree = "<group>"; };
 		D85523BB1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerServiceImplemenation.h; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.h; sourceTree = "<group>"; };
 		D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVImageAnalizerServiceImplemenation.m; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.m; sourceTree = "<group>"; };
@@ -43,8 +43,6 @@
 		D8EE5FF11DFB013B00E39ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8EE5FF61DFB013B00E39ABB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8EE5FF71DFB013B00E39ABB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8EE5FFA1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8EE5FFF1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +151,7 @@
 		D82702D01DFC562A00962111 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				D82702D21DFCA30000962111 /* GLBlockHelper.h */,
+				D82702D21DFCA30000962111 /* GVBlockHelper.h */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -210,8 +208,6 @@
 				D8EE60091DFB07D000E39ABB /* Classes */,
 				D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */,
 				D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */,
-				D8EE5FF61DFB013B00E39ABB /* ViewController.h */,
-				D8EE5FF71DFB013B00E39ABB /* ViewController.m */,
 				D8EE5FF91DFB013B00E39ABB /* Main.storyboard */,
 				D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */,
 				D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */,
@@ -227,6 +223,7 @@
 				D8EE600B1DFB081D00E39ABB /* Rambafile */,
 				D8EE60071DFB04B100E39ABB /* Podfile */,
 				D8EE5FF11DFB013B00E39ABB /* main.m */,
+				D806BE711DFCB478008829CE /* GoVision-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -398,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8EE5FF81DFB013B00E39ABB /* ViewController.m in Sources */,
 				D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */,
 				D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */,
 				D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */,
@@ -531,6 +527,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoVision/Supporting Files/GoVision-Prefix.pch";
 				INFOPLIST_FILE = GoVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
@@ -547,6 +545,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoVision/Supporting Files/GoVision-Prefix.pch";
 				INFOPLIST_FILE = GoVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;

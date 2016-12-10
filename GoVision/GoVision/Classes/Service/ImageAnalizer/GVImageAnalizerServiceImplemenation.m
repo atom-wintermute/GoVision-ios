@@ -11,9 +11,6 @@
 
 #import "GVImageAnalizerServiceImplemenation.h"
 
-#import "GLBlockHelper.h"
-
-static NSString * const GVHost = @"http://20161210t161505-dot-go-bookshelf-148108.appspot-preview.com";
 static NSString * const GVUploadServerHost = @"http://20161210t161505-dot-go-bookshelf-148108.appspot-preview.com/upload";
 
 static NSString * const GVResponseResultKey = @"Description";
@@ -34,7 +31,6 @@ static NSString * const GVResponseResultKey = @"Description";
                         [NSJSONSerialization JSONObjectWithData:data
                                                         options:kNilOptions
                                                           error:nil];
-                        NSLog(@"representation = %@", representation);
                         NSString *rawResult = representation[GVResponseResultKey];
                         GLAnalizeResult result = [[self resultMapping][rawResult] unsignedIntegerValue];
                         run_block_on_main(completionBlock, nil, result);
