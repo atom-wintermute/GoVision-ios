@@ -67,7 +67,10 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         
         if (imageURL) {
             self.currentImage = image;
-            [self.view showImage:image];
+            void (^block)(void) = ^{
+                [self.view showImage:image];
+            };
+            run_block_on_main(block)
             return;
         }
         
@@ -78,7 +81,10 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         } completionHandler:^(BOOL success, NSError * _Nullable error) {
             if (!error) {
                 self.currentImage = image;
-                [self.view showImage:image];
+                void (^block)(void) = ^{
+                    [self.view showImage:image];
+                };
+                run_block_on_main(block)
             }
         }];
     }

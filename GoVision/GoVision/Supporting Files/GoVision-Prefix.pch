@@ -1,0 +1,16 @@
+//
+//  GoVision-Prefix.pch
+//  GoVision
+//
+//  Created by Nikulin Maksim on 11/12/2016.
+//  Copyright © 2016 Rambler&Co. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "GVBlockHelper.h"
+
+#endif

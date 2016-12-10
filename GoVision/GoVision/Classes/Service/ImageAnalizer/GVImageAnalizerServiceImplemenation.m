@@ -11,8 +11,6 @@
 
 #import "GVImageAnalizerServiceImplemenation.h"
 
-#import "GLBlockHelper.h"
-
 static NSString * const GVUploadServerHost = @"http://20161210t161505-dot-go-bookshelf-148108.appspot-preview.com/upload";
 
 static NSString * const GVResponseResultKey = @"Description";

@@ -1,5 +1,5 @@
 //
-//  GLBlockHelper.h
+//  GVBlockHelper.h
 //  GoVision
 //
 //  Created by Nikulin Maksim on 10/12/2016.
