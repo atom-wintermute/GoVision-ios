@@ -17,6 +17,12 @@
 
 #import "UIImage+OrientationFix.h"
 
+@interface GVMainPresenter ()
+
+@property (nonatomic, copy) UIImage *currentImage;
+
+@end
+
 @implementation GVMainPresenter
 
 #pragma mark - Методы GVMainModuleInput
@@ -39,6 +45,10 @@
     [self.router showImagePickerGallery];
 }
 
+- (void)didTriggerAnalizeButtonPressedEvent {
+    [self.interactor postImageOnServer:self.currentImage];
+}
+
 #pragma mark - Методы GVMainInteractorOutput
 
 - (void)updateScreenWithResult:(GLAnalizeResult)result {
@@ -56,11 +66,8 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
         
         if (imageURL) {
+            self.currentImage = image;
             [self.view showImage:image];
-//            [self.interactor postImageURLOnServer:imageURL];
-            [self.interactor postImageOnServer:image];
-//            [self.delegate imagePickerController:self
-//                              didFinishWithImage:image];
             return;
         }
         
@@ -69,13 +76,9 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         [library performChanges:^{
             [PHAssetChangeRequest creationRequestForAssetFromImage:image];
         } completionHandler:^(BOOL success, NSError * _Nullable error) {
-            if (error) {
-                NSLog(@"Error: %@", error);
-            } else {
+            if (!error) {
+                self.currentImage = image;
                 [self.view showImage:image];
-                [self.interactor postImageOnServer:image];
-//                [self.delegate imagePickerController:self
-//                                  didFinishWithImage:image];
             }
         }];
     }
@@ -86,14 +89,6 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 }
 
 #pragma mark - Методы UINavigationControllerDelegate
-
-- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    NSLog(@"navigationController: willShowViewController");
-}
-
-- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    NSLog(@"navigationController: didShowViewController");
-}
 
 - (UIInterfaceOrientationMask)navigationControllerSupportedInterfaceOrientations:(UINavigationController *)navigationController {
     return UIInterfaceOrientationMaskPortrait;

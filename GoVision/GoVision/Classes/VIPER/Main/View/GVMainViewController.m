@@ -30,14 +30,23 @@
     [self.output didTriggerGalleryButtonPressedEvent];
 }
 
+- (void)analizeButtonWasPressed:(id)sender {
+    [self enableButton:self.analizeButton enable:NO];
+    [self enableButton:self.cameraButton enable:NO];
+    [self enableButton:self.galleryButton enable:NO];
+    
+    [self.output didTriggerAnalizeButtonPressedEvent];
+}
+
 #pragma mark - Методы GVMainViewInput
 
 - (void)setupInitialState {
-	// В этом методе происходит настройка параметров view, зависящих от ее жизненого цикла (создание элементов, анимации и пр.)
+    [self enableButton:self.analizeButton enable:NO];
 }
 
 - (void)showImage:(UIImage *)image {
     self.imageView.image = image;
+    [self enableButton:self.analizeButton enable:YES];
 }
 
 - (void)updateViewWithResult:(GLAnalizeResult)result {
@@ -69,6 +78,14 @@
         default:
             break;
     }
+}
+
+#pragma mark - Вспомогательные методы
+
+- (void)enableButton:(UIButton *)button
+              enable:(BOOL)enable {
+    button.userInteractionEnabled = enable;
+    button.enabled = enable;
 }
 
 @end
