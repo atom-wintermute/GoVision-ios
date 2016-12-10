@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,19 +23,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OPC-JT-cbk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OPC-JT-cbk">
+                                <rect key="frame" x="32" y="16" width="311" height="311"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OPC-JT-cbk" secondAttribute="height" multiplier="1:1" id="EzN-Tr-yRJ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Google result would be here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do0-zt-hck">
+                                <rect key="frame" x="80.5" y="359" width="214.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYg-Uc-esJ">
+                                <rect key="frame" x="48" y="411.5" width="279" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVD-4g-rvX">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="Yoc-dR-ozR"/>
                                             <constraint firstAttribute="height" constant="120" id="jLi-9C-fdn"/>
@@ -43,6 +50,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kg0-lN-7t0">
+                                        <rect key="frame" x="159" y="0.0" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="DCa-ex-GmX"/>
                                             <constraint firstAttribute="width" constant="120" id="o3y-RY-cxn"/>
@@ -65,14 +73,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="OPC-JT-cbk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="0uN-tG-WRY"/>
+                            <constraint firstItem="OPC-JT-cbk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="0uN-tG-WRY"/>
                             <constraint firstItem="hYg-Uc-esJ" firstAttribute="top" secondItem="do0-zt-hck" secondAttribute="bottom" constant="32" id="2NH-Tw-JAS"/>
-                            <constraint firstItem="OPC-JT-cbk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="32" id="2iA-Wo-KjN"/>
+                            <constraint firstItem="OPC-JT-cbk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="2iA-Wo-KjN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hYg-Uc-esJ" secondAttribute="trailing" constant="32" id="DSX-1L-cYa"/>
                             <constraint firstItem="do0-zt-hck" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VyZ-o4-gMq"/>
                             <constraint firstItem="do0-zt-hck" firstAttribute="top" secondItem="OPC-JT-cbk" secondAttribute="bottom" constant="32" id="ZyF-6R-v9L"/>
                             <constraint firstItem="hYg-Uc-esJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="wyg-8e-Kc0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OPC-JT-cbk" secondAttribute="trailing" constant="32" id="zvp-Cf-ZQ6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OPC-JT-cbk" secondAttribute="trailing" constant="16" id="zvp-Cf-ZQ6"/>
                         </constraints>
                     </view>
                     <connections>

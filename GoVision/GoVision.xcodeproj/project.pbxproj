@@ -264,7 +264,7 @@
 		D8EE5FE51DFB013B00E39ABB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Rambler&Co";
 				TargetAttributes = {
 					D8EE5FEC1DFB013B00E39ABB = {
@@ -412,6 +412,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -459,6 +460,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -487,14 +489,14 @@
 			baseConfigurationReference = 65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7SMPM83ZV6;
 				INFOPLIST_FILE = GoVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "39412e77-d2b9-486e-b0f6-2f8062c73245";
-				PROVISIONING_PROFILE_SPECIFIER = "GoVision AdHoc";
+				PROVISIONING_PROFILE = "1db91c98-63fb-4bdc-bf68-84a96a9e6c25";
+				PROVISIONING_PROFILE_SPECIFIER = "GoVision Development";
 			};
 			name = Debug;
 		};
@@ -524,7 +526,7 @@
 				D8EE60031DFB013B00E39ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D8EE60041DFB013B00E39ABB /* Build configuration list for PBXNativeTarget "GoVision" */ = {
 			isa = XCConfigurationList;
@@ -533,7 +535,7 @@
 				D8EE60061DFB013B00E39ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,7 +17,4 @@
  Метод инициирует стартовую конфигурацию текущего модуля
  */
 - (void)configureModule;
-
-- (void)showImage:(UIImage *)image;
-
 @end

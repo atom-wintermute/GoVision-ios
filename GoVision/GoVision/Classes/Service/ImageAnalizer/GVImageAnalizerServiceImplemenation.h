@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GVImageAnalizerServiceImplemenation : NSObject
+#import "GVImageAnalizerService.h"
+
+@interface GVImageAnalizerServiceImplemenation : NSObject <GVImageAnalizerService>
 
 @end
