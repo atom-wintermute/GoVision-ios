@@ -34,6 +34,8 @@
     [self enableButton:self.analizeButton enable:NO];
     [self enableButton:self.cameraButton enable:NO];
     [self enableButton:self.galleryButton enable:NO];
+    self.resultLabel.text = @"";
+    [self.activity startAnimating];
     
     [self.output didTriggerAnalizeButtonPressedEvent];
 }
@@ -53,6 +55,7 @@
     [self enableButton:self.analizeButton enable:YES];
     [self enableButton:self.cameraButton enable:YES];
     [self enableButton:self.galleryButton enable:YES];
+    [self.activity stopAnimating];
     
     switch (result) {
         case GLAnalizeResultUnlikely:
