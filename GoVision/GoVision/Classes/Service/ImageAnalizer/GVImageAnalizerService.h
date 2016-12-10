@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, GLAnalizeResult) {
+    GLAnalizeResultUnknown,
+    GLAnalizeResultVeryLikely,
+    GLAnalizeResultLikely,
+    GLAnalizeResultPossible,
+    GLAnalizeResultUnlikely,
+    GLAnalizeResultVeryUnlikely,
+};
+
+typedef void (^GLAnalizeCompletionBlock)(NSError *error, GLAnalizeResult result);
+
 @protocol GVImageAnalizerService <NSObject>
 
-- (void)postImageOnServer:(UIImage *)image;
+- (void)postImageOnServer:(UIImage *)image
+          completionBlock:(GLAnalizeCompletionBlock)completionBlock;
 
 @end
