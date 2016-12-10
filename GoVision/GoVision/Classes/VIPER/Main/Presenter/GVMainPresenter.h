@@ -14,7 +14,7 @@
 @protocol GVMainInteractorInput;
 @protocol GVMainRouterInput;
 
-@interface GVMainPresenter : NSObject <GVMainModuleInput, GVMainViewOutput, GVMainInteractorOutput>
+@interface GVMainPresenter : NSObject <GVMainModuleInput, GVMainViewOutput, GVMainInteractorOutput, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 @property (nonatomic, weak) id<GVMainViewInput> view;
 @property (nonatomic, strong) id<GVMainInteractorInput> interactor;

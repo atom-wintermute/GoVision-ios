@@ -10,4 +10,6 @@
 
 @protocol GVMainRouterInput <NSObject>
 
+- (void)showImagePickerCamera;
+
 @end

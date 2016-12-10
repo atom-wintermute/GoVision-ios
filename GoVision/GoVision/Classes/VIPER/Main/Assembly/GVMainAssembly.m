@@ -47,11 +47,13 @@
                           }];
 }
 
-- (GVMainRouter *)routerMain{
+- (GVMainRouter *)routerMain {
     return [TyphoonDefinition withClass:[GVMainRouter class]
                           configuration:^(TyphoonDefinition *definition) {
                               [definition injectProperty:@selector(transitionHandler)
                                                     with:[self viewMain]];
+                              [definition injectProperty:@selector(imagePickerDelegate)
+                                                    with:[self presenterMain]];
                           }];
 }
 

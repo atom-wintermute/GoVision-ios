@@ -23,7 +23,7 @@
 #pragma mark - IBActions
 
 - (void)cameraButtonWasPressed:(id)sender {
-    
+    [self.output didTriggerCameraButtonPressedEvent];
 }
 
 - (void)galleryButtonWasPressed:(id)sender {

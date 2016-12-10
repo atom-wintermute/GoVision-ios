@@ -26,6 +26,38 @@
 	[self.view setupInitialState];
 }
 
+- (void)didTriggerCameraButtonPressedEvent {
+    [self.router showImagePickerCamera];
+}
+
 #pragma mark - Методы GVMainInteractorOutput
+
+#pragma mark - Методы UIImagePickerControllerDelegate
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
+    NSLog(@"imagePicker: didFinishPickingMediaWithInfo");
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    NSLog(@"imagePicker: didCancel");
+}
+
+#pragma mark - Методы UINavigationControllerDelegate
+
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    NSLog(@"navigationController: willShowViewController");
+}
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    NSLog(@"navigationController: didShowViewController");
+}
+
+- (UIInterfaceOrientationMask)navigationControllerSupportedInterfaceOrientations:(UINavigationController *)navigationController {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (UIInterfaceOrientation)navigationControllerPreferredInterfaceOrientationForPresentation:(UINavigationController *)navigationController {
+    return UIInterfaceOrientationPortrait;
+}
 
 @end
