@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "GVImageAnalizerService.h"
+
 @protocol GVMainViewInput <NSObject>
 
 /**
@@ -18,5 +20,7 @@
 - (void)setupInitialState;
 
 - (void)showImage:(UIImage *)image;
+
+- (void)updateViewWithResult:(GLAnalizeResult)result;
 
 @end

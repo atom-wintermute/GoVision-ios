@@ -30,13 +30,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Google result would be here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do0-zt-hck">
-                                <rect key="frame" x="80.5" y="359" width="214.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="38" y="359" width="299" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYg-Uc-esJ">
-                                <rect key="frame" x="48" y="411.5" width="279" height="120"/>
+                                <rect key="frame" x="48" y="420" width="279" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVD-4g-rvX">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -83,8 +83,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="OPC-JT-cbk" secondAttribute="trailing" constant="16" id="zvp-Cf-ZQ6"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
                         <outlet property="imageView" destination="OPC-JT-cbk" id="XnD-YE-01S"/>
+                        <outlet property="resultLabel" destination="do0-zt-hck" id="hUx-XU-v1I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

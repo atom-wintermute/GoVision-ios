@@ -40,4 +40,35 @@
     self.imageView.image = image;
 }
 
+- (void)updateViewWithResult:(GLAnalizeResult)result {
+    switch (result) {
+        case GLAnalizeResultUnlikely:
+            self.resultLabel.textColor = [UIColor greenColor];
+            self.resultLabel.text = @"unlikely";
+            break;
+        case GLAnalizeResultVeryUnlikely:
+            self.resultLabel.textColor = [UIColor greenColor];
+            self.resultLabel.text = @"very unlikely";
+            break;
+        case GLAnalizeResultVeryLikely:
+            self.resultLabel.textColor = [UIColor redColor];
+            self.resultLabel.text = @"very likely";
+            break;
+        case GLAnalizeResultLikely:
+            self.resultLabel.textColor = [UIColor redColor];
+            self.resultLabel.text = @"likely";
+            break;
+        case GLAnalizeResultUnknown:
+            self.resultLabel.textColor = [UIColor grayColor];
+            self.resultLabel.text = @"unknown";
+            break;
+        case GLAnalizeResultPossible:
+            self.resultLabel.textColor = [UIColor yellowColor];
+            self.resultLabel.text = @"possible";
+            break;
+        default:
+            break;
+    }
+}
+
 @end

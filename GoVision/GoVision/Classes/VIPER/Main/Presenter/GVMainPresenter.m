@@ -15,6 +15,8 @@
 #import "AssetsLibrary/AssetsLibrary.h"
 #import <Photos/Photos.h>
 
+#import "UIImage+OrientationFix.h"
+
 @implementation GVMainPresenter
 
 #pragma mark - Методы GVMainModuleInput
@@ -39,6 +41,10 @@
 
 #pragma mark - Методы GVMainInteractorOutput
 
+- (void)updateScreenWithResult:(GLAnalizeResult)result {
+    [self.view updateViewWithResult:result];
+}
+
 #pragma mark - Методы UIImagePickerControllerDelegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker
@@ -46,11 +52,12 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     if (info[UIImagePickerControllerOriginalImage]) {
-        UIImage *image = info[UIImagePickerControllerOriginalImage];
+        UIImage *image = [info[UIImagePickerControllerOriginalImage] imageWithFixedOrientation];
         NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
         
         if (imageURL) {
             [self.view showImage:image];
+//            [self.interactor postImageURLOnServer:imageURL];
             [self.interactor postImageOnServer:image];
 //            [self.delegate imagePickerController:self
 //                              didFinishWithImage:image];
@@ -66,6 +73,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
                 NSLog(@"Error: %@", error);
             } else {
                 [self.view showImage:image];
+                [self.interactor postImageOnServer:image];
 //                [self.delegate imagePickerController:self
 //                                  didFinishWithImage:image];
             }
@@ -74,7 +82,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
-    NSLog(@"imagePicker: didCancel");
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Методы UINavigationControllerDelegate

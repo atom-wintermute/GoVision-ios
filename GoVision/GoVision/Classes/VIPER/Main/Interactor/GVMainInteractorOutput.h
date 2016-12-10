@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "GVImageAnalizerService.h"
+
 @protocol GVMainInteractorOutput <NSObject>
+
+- (void)updateScreenWithResult:(GLAnalizeResult)result;
 
 @end

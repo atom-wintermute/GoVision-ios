@@ -9,13 +9,21 @@
 #import "GVMainInteractor.h"
 
 #import "GVMainInteractorOutput.h"
+#import "GVImageAnalizerService.h"
 
 @implementation GVMainInteractor
 
 #pragma mark - Методы GVMainInteractorInput
 
 - (void)postImageOnServer:(UIImage *)image {
-    
+    [self.imageAnalizerService postImageOnServer:image
+                                 completionBlock:^(NSError *error, GLAnalizeResult result) {
+                                     [self.output updateScreenWithResult:result];
+                                 }];
+}
+
+- (void)postImageURLOnServer:(NSURL *)imageURL {
+//    [self.imageAnalizerService postImageURLOnServer:imageURL];
 }
 
 @end
