@@ -12,11 +12,14 @@
 
 @protocol GVMainViewOutput;
 
+@class PECropView;
+
 @interface GVMainViewController : UIViewController <GVMainViewInput>
 
 @property (nonatomic, strong) id<GVMainViewOutput> output;
 
-@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+@property (nonatomic, weak) IBOutlet UIView *imageView;
+@property (nonatomic, strong) IBOutlet PECropView *cropView;
 @property (nonatomic, weak) IBOutlet UILabel *resultLabel;
 @property (nonatomic, weak) IBOutlet UIActivityIndicatorView *activity;
 

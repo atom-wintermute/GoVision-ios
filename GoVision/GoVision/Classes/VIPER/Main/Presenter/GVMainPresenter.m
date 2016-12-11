@@ -19,12 +19,6 @@
 
 static CGFloat const GVMaximumSize = 1000.0;
 
-@interface GVMainPresenter ()
-
-@property (nonatomic, copy) UIImage *currentImage;
-
-@end
-
 @implementation GVMainPresenter
 
 #pragma mark - Методы GVMainModuleInput
@@ -48,8 +42,8 @@ static CGFloat const GVMaximumSize = 1000.0;
 }
 
 - (void)didTriggerAnalizeButtonPressedEvent {
-    UIImage *scaledImage = [self compressedImageFromImage:self.currentImage];
-    NSLog(@"scaled image size = %f %f", scaledImage.size.width, scaledImage.size.height);
+    UIImage *currentImage = [self.view obtainCurrentImage];
+    UIImage *scaledImage = [self compressedImageFromImage:currentImage];
     [self.interactor postImageOnServer:scaledImage];
 }
 
@@ -70,7 +64,6 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
         
         if (imageURL) {
-            self.currentImage = image;
             NSLog(@"size = %f %f", image.size.width, image.size.height);
             void (^block)(void) = ^{
                 [self.view showImage:image];
@@ -85,7 +78,6 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
             [PHAssetChangeRequest creationRequestForAssetFromImage:image];
         } completionHandler:^(BOOL success, NSError * _Nullable error) {
             if (!error) {
-                self.currentImage = image;
                 void (^block)(void) = ^{
                     [self.view showImage:image];
                 };

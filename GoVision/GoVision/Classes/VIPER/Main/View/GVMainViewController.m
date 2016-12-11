@@ -10,6 +10,8 @@
 
 #import "GVMainViewOutput.h"
 
+#import "PECropView.h"
+
 @implementation GVMainViewController
 
 #pragma mark - Методы жизненного цикла
@@ -43,11 +45,19 @@
 #pragma mark - Методы GVMainViewInput
 
 - (void)setupInitialState {
+    self.cropView = [[PECropView alloc] initWithFrame:self.imageView.frame];
+    self.cropView.clipsToBounds = YES;
+    
+    [self.view addSubview:self.cropView];
+    [self.view bringSubviewToFront:self.analizeButton];
+    [self.view bringSubviewToFront:self.cameraButton];
+    [self.view bringSubviewToFront:self.galleryButton];
+    
     [self enableButton:self.analizeButton enable:NO];
 }
 
 - (void)showImage:(UIImage *)image {
-    self.imageView.image = image;
+    self.cropView.image = image;
     [self enableButton:self.analizeButton enable:YES];
 }
 
@@ -85,6 +95,10 @@
         default:
             break;
     }
+}
+
+- (UIImage *)obtainCurrentImage {
+    return self.cropView.croppedImage;
 }
 
 #pragma mark - Вспомогательные методы
