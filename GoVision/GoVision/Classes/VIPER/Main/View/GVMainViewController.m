@@ -64,6 +64,12 @@
 }
 
 - (void)showImage:(UIImage *)image {
+    self.strawberry1.alpha = 0.15;
+    self.strawberry2.alpha = 0.15;
+    self.strawberry3.alpha = 0.15;
+    self.strawberry4.alpha = 0.15;
+    self.strawberry5.alpha = 0.15;
+    
     self.cropView.image = image;
     [self enableButton:self.analizeButton enable:YES];
 }
