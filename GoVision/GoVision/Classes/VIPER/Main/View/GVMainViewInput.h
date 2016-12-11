@@ -23,4 +23,6 @@
 
 - (void)updateViewWithResult:(GLAnalizeResult)result;
 
+- (UIImage *)obtainCurrentImage;
+
 @end

@@ -17,11 +17,7 @@
 
 #import "UIImage+OrientationFix.h"
 
-@interface GVMainPresenter ()
-
-@property (nonatomic, copy) UIImage *currentImage;
-
-@end
+static CGFloat const GVMaximumSize = 1000.0;
 
 @implementation GVMainPresenter
 
@@ -46,7 +42,9 @@
 }
 
 - (void)didTriggerAnalizeButtonPressedEvent {
-    [self.interactor postImageOnServer:self.currentImage];
+    UIImage *currentImage = [self.view obtainCurrentImage];
+    UIImage *scaledImage = [self compressedImageFromImage:currentImage];
+    [self.interactor postImageOnServer:scaledImage];
 }
 
 #pragma mark - Методы GVMainInteractorOutput
@@ -66,7 +64,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
         
         if (imageURL) {
-            self.currentImage = image;
+            NSLog(@"size = %f %f", image.size.width, image.size.height);
             void (^block)(void) = ^{
                 [self.view showImage:image];
             };
@@ -80,7 +78,6 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
             [PHAssetChangeRequest creationRequestForAssetFromImage:image];
         } completionHandler:^(BOOL success, NSError * _Nullable error) {
             if (!error) {
-                self.currentImage = image;
                 void (^block)(void) = ^{
                     [self.view showImage:image];
                 };
@@ -102,6 +99,25 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 
 - (UIInterfaceOrientation)navigationControllerPreferredInterfaceOrientationForPresentation:(UINavigationController *)navigationController {
     return UIInterfaceOrientationPortrait;
+}
+
+#pragma mark - Вспомогательные методы
+
+- (UIImage *)compressedImageFromImage:(UIImage *)image {
+    CGSize currentSize = image.size;
+    CGFloat maximumSide = MAX(currentSize.width, currentSize.height);
+    
+    if (maximumSide < GVMaximumSize) {
+        return image;
+    }
+    CGFloat ratio = GVMaximumSize / maximumSide;
+    CGSize newSize = CGSizeApplyAffineTransform(currentSize, CGAffineTransformMakeScale(ratio, ratio));
+    
+    UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
+    [image drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
 }
 
 @end
