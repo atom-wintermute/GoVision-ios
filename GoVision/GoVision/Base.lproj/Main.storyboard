@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BAN-nz-Muq">
-                                <rect key="frame" x="178" y="417" width="20" height="20"/>
+                                <rect key="frame" x="178" y="572" width="20" height="20"/>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYg-Uc-esJ">
                                 <rect key="frame" x="48" y="533" width="279" height="100"/>
@@ -163,7 +163,7 @@
                             <constraint firstItem="XHx-Uu-I88" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ald-dz-u6D"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hYg-Uc-esJ" secondAttribute="trailing" constant="32" id="DSX-1L-cYa"/>
                             <constraint firstItem="XHx-Uu-I88" firstAttribute="top" secondItem="OPC-JT-cbk" secondAttribute="bottom" constant="24" id="FpA-nT-hb4"/>
-                            <constraint firstItem="BAN-nz-Muq" firstAttribute="centerY" secondItem="XHx-Uu-I88" secondAttribute="centerY" id="eeJ-JN-di3"/>
+                            <constraint firstItem="BAN-nz-Muq" firstAttribute="centerY" secondItem="XHx-Uu-I88" secondAttribute="centerY" constant="155" id="eeJ-JN-di3"/>
                             <constraint firstItem="e13-iM-DBQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pk2-K5-v06"/>
                             <constraint firstItem="hYg-Uc-esJ" firstAttribute="top" secondItem="e13-iM-DBQ" secondAttribute="bottom" constant="24" id="wS9-At-L6s"/>
                             <constraint firstItem="hYg-Uc-esJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="wyg-8e-Kc0"/>

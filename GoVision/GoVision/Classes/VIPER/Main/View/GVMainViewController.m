@@ -58,6 +58,7 @@
     [self.view bringSubviewToFront:self.analizeButton];
     [self.view bringSubviewToFront:self.cameraButton];
     [self.view bringSubviewToFront:self.galleryButton];
+    [self.view bringSubviewToFront:self.activity];
     
     [self enableButton:self.analizeButton enable:NO];
 }
