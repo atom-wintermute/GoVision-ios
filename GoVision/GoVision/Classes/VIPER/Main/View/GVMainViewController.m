@@ -48,6 +48,12 @@
     self.cropView = [[PECropView alloc] initWithFrame:self.imageView.frame];
     self.cropView.clipsToBounds = YES;
     
+    self.strawberry1.alpha = 0.15;
+    self.strawberry2.alpha = 0.15;
+    self.strawberry3.alpha = 0.15;
+    self.strawberry4.alpha = 0.15;
+    self.strawberry5.alpha = 0.15;
+    
     [self.view addSubview:self.cropView];
     [self.view bringSubviewToFront:self.analizeButton];
     [self.view bringSubviewToFront:self.cameraButton];
@@ -58,7 +64,6 @@
 
 - (void)showImage:(UIImage *)image {
     self.cropView.image = image;
-    self.resultLabel.text = @"";
     [self enableButton:self.analizeButton enable:YES];
 }
 
@@ -70,28 +75,46 @@
     
     switch (result) {
         case GLAnalizeResultUnlikely:
-            self.resultLabel.textColor = [UIColor greenColor];
-            self.resultLabel.text = @"unlikely";
+            self.strawberry1.alpha = 1.0;
+            self.strawberry2.alpha = 1.0;
+            self.strawberry3.alpha = 0.15;
+            self.strawberry4.alpha = 0.15;
+            self.strawberry5.alpha = 0.15;
             break;
         case GLAnalizeResultVeryUnlikely:
-            self.resultLabel.textColor = [UIColor greenColor];
-            self.resultLabel.text = @"very unlikely";
+            self.strawberry1.alpha = 1.0;
+            self.strawberry2.alpha = 0.15;
+            self.strawberry3.alpha = 0.15;
+            self.strawberry4.alpha = 0.15;
+            self.strawberry5.alpha = 0.15;
             break;
         case GLAnalizeResultVeryLikely:
-            self.resultLabel.textColor = [UIColor redColor];
-            self.resultLabel.text = @"very likely";
+            self.strawberry1.alpha = 1.0;
+            self.strawberry2.alpha = 1.0;
+            self.strawberry3.alpha = 1.0;
+            self.strawberry4.alpha = 1.0;
+            self.strawberry5.alpha = 1.0;
             break;
         case GLAnalizeResultLikely:
-            self.resultLabel.textColor = [UIColor redColor];
-            self.resultLabel.text = @"likely";
+            self.strawberry1.alpha = 1.0;
+            self.strawberry2.alpha = 1.0;
+            self.strawberry3.alpha = 1.0;
+            self.strawberry4.alpha = 1.0;
+            self.strawberry5.alpha = 0.15;
             break;
         case GLAnalizeResultUnknown:
-            self.resultLabel.textColor = [UIColor grayColor];
-            self.resultLabel.text = @"unknown";
+            self.strawberry1.alpha = 0.15;
+            self.strawberry2.alpha = 0.15;
+            self.strawberry3.alpha = 0.15;
+            self.strawberry4.alpha = 0.15;
+            self.strawberry5.alpha = 0.15;
             break;
         case GLAnalizeResultPossible:
-            self.resultLabel.textColor = [UIColor yellowColor];
-            self.resultLabel.text = @"possible";
+            self.strawberry1.alpha = 1.0;
+            self.strawberry2.alpha = 1.0;
+            self.strawberry3.alpha = 1.0;
+            self.strawberry4.alpha = 0.15;
+            self.strawberry5.alpha = 0.15;
             break;
         default:
             break;
