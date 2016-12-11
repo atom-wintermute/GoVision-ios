@@ -58,6 +58,7 @@
 
 - (void)showImage:(UIImage *)image {
     self.cropView.image = image;
+    self.resultLabel.text = @"";
     [self enableButton:self.analizeButton enable:YES];
 }
 
