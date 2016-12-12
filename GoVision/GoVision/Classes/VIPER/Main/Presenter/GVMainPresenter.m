@@ -64,7 +64,6 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         NSURL *imageURL = info[UIImagePickerControllerReferenceURL];
         
         if (imageURL) {
-            NSLog(@"size = %f %f", image.size.width, image.size.height);
             void (^block)(void) = ^{
                 [self.view showImage:image];
             };

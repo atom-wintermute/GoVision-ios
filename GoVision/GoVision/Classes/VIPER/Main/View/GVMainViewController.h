@@ -27,6 +27,12 @@
 @property (nonatomic, weak) IBOutlet UIButton *galleryButton;
 @property (nonatomic, weak) IBOutlet UIButton *analizeButton;
 
+@property (nonatomic, weak) IBOutlet UIImageView *strawberry1;
+@property (nonatomic, weak) IBOutlet UIImageView *strawberry2;
+@property (nonatomic, weak) IBOutlet UIImageView *strawberry3;
+@property (nonatomic, weak) IBOutlet UIImageView *strawberry4;
+@property (nonatomic, weak) IBOutlet UIImageView *strawberry5;
+
 - (IBAction)cameraButtonWasPressed:(id)sender;
 
 - (IBAction)galleryButtonWasPressed:(id)sender;
