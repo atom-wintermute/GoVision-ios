@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A15C2320E715C9E5CB019 /* libPods-GoVision.a */; };
+		D82702CF1DFC4C1A00962111 /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */; };
+		D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */ = {isa = PBXBuildFile; fileRef = D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */; };
+		D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */; };
+		D8EE5FF21DFB013B00E39ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF11DFB013B00E39ABB /* main.m */; };
+		D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */; };
+		D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FF91DFB013B00E39ABB /* Main.storyboard */; };
+		D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */; };
+		D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */; };
+		D8EE60081DFB04B100E39ABB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE60071DFB04B100E39ABB /* Podfile */; };
+		D8EE600C1DFB081D00E39ABB /* Rambafile in Resources */ = {isa = PBXBuildFile; fileRef = D8EE600B1DFB081D00E39ABB /* Rambafile */; };
+		D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */; };
+		D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE60111DFB09E100E39ABB /* GVMainViewController.m */; };
+		D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */; };
+		D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */; };
+		D8EE60211DFB09FD00E39ABB /* GVMainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.release.xcconfig"; sourceTree = "<group>"; };
+		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
+		D806BE711DFCB478008829CE /* GoVision-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GoVision-Prefix.pch"; path = "Supporting Files/GoVision-Prefix.pch"; sourceTree = "<group>"; };
+		D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrientationFix.h"; path = "Extension/UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrientationFix.m"; path = "Extension/UIImage+OrientationFix.m"; sourceTree = "<group>"; };
+		D82702D21DFCA30000962111 /* GVBlockHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVBlockHelper.h; path = Helper/GVBlockHelper.h; sourceTree = "<group>"; };
+		D85523BA1DFC282500C941B7 /* GVImageAnalizerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerService.h; path = Service/ImageAnalizer/GVImageAnalizerService.h; sourceTree = "<group>"; };
+		D85523BB1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerServiceImplemenation.h; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.h; sourceTree = "<group>"; };
+		D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVImageAnalizerServiceImplemenation.m; path = Service/ImageAnalizer/GVImageAnalizerServiceImplemenation.m; sourceTree = "<group>"; };
+		D8E95BA21DFC356E0026E7A5 /* GVServiceAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVServiceAssembly.h; path = Assembly/GVServiceAssembly.h; sourceTree = "<group>"; };
+		D8E95BA31DFC36300026E7A5 /* GVServiceAssemblyImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVServiceAssemblyImplementation.h; path = Assembly/GVServiceAssemblyImplementation.h; sourceTree = "<group>"; };
+		D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVServiceAssemblyImplementation.m; path = Assembly/GVServiceAssemblyImplementation.m; sourceTree = "<group>"; };
+		D8EE5FED1DFB013B00E39ABB /* GoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EE5FF11DFB013B00E39ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8EE5FFA1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8EE5FFF1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8EE60011DFB013B00E39ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D8EE600B1DFB081D00E39ABB /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
+		D8EE600D1DFB09D600E39ABB /* GVMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainAssembly.h; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.h; sourceTree = SOURCE_ROOT; };
+		D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainAssembly.m; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.m; sourceTree = SOURCE_ROOT; };
+		D8EE60101DFB09E100E39ABB /* GVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewController.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewController.h; sourceTree = SOURCE_ROOT; };
+		D8EE60111DFB09E100E39ABB /* GVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainViewController.m; path = GoVision/Classes/VIPER/Main/View/GVMainViewController.m; sourceTree = SOURCE_ROOT; };
+		D8EE60121DFB09E100E39ABB /* GVMainViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewInput.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60131DFB09E100E39ABB /* GVMainViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainViewOutput.h; path = GoVision/Classes/VIPER/Main/View/GVMainViewOutput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60151DFB09EB00E39ABB /* GVMainModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainModuleInput.h; path = GoVision/Classes/VIPER/Main/Presenter/GVMainModuleInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE60161DFB09EB00E39ABB /* GVMainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainPresenter.h; path = GoVision/Classes/VIPER/Main/Presenter/GVMainPresenter.h; sourceTree = SOURCE_ROOT; };
+		D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainPresenter.m; path = GoVision/Classes/VIPER/Main/Presenter/GVMainPresenter.m; sourceTree = SOURCE_ROOT; };
+		D8EE60191DFB09F300E39ABB /* GVMainInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractor.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractor.h; sourceTree = SOURCE_ROOT; };
+		D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainInteractor.m; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractor.m; sourceTree = SOURCE_ROOT; };
+		D8EE601B1DFB09F300E39ABB /* GVMainInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorInput.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractorInput.h; sourceTree = SOURCE_ROOT; };
+		D8EE601C1DFB09F300E39ABB /* GVMainInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainInteractorOutput.h; path = GoVision/Classes/VIPER/Main/Interactor/GVMainInteractorOutput.h; sourceTree = SOURCE_ROOT; };
+		D8EE601E1DFB09FD00E39ABB /* GVMainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainRouter.h; path = GoVision/Classes/VIPER/Main/Router/GVMainRouter.h; sourceTree = SOURCE_ROOT; };
+		D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainRouter.m; path = GoVision/Classes/VIPER/Main/Router/GVMainRouter.m; sourceTree = SOURCE_ROOT; };
+		D8EE60201DFB09FD00E39ABB /* GVMainRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainRouterInput.h; path = GoVision/Classes/VIPER/Main/Router/GVMainRouterInput.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8EE5FEA1DFB013B00E39ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177C1DCF3EE026939ECFC090 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE601B1DFB09F300E39ABB /* GVMainInteractorInput.h */,
+				D8EE601C1DFB09F300E39ABB /* GVMainInteractorOutput.h */,
+				D8EE60191DFB09F300E39ABB /* GVMainInteractor.h */,
+				D8EE601A1DFB09F300E39ABB /* GVMainInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		27C0D4A276D54742E461BABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE60121DFB09E100E39ABB /* GVMainViewInput.h */,
+				D8EE60131DFB09E100E39ABB /* GVMainViewOutput.h */,
+				D8EE60101DFB09E100E39ABB /* GVMainViewController.h */,
+				D8EE60111DFB09E100E39ABB /* GVMainViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6214CB94965A3C32745F2615 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE60151DFB09EB00E39ABB /* GVMainModuleInput.h */,
+				D8EE60161DFB09EB00E39ABB /* GVMainPresenter.h */,
+				D8EE60171DFB09EB00E39ABB /* GVMainPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6AD2386D16B8BF56EE100FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */,
+				20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5682F7C96F88D7BF2DDC947 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE60201DFB09FD00E39ABB /* GVMainRouterInput.h */,
+				D8EE601E1DFB09FD00E39ABB /* GVMainRouter.h */,
+				D8EE601F1DFB09FD00E39ABB /* GVMainRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1F968D6C7905469FEF9CBC4 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE600D1DFB09D600E39ABB /* GVMainAssembly.h */,
+				D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		D82702CC1DFC4C0600962111 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */,
+				D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		D82702D01DFC562A00962111 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D82702D21DFCA30000962111 /* GVBlockHelper.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D85523B81DFC27E200C941B7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D85523B91DFC27F100C941B7 /* ImageAnalizer */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D85523B91DFC27F100C941B7 /* ImageAnalizer */ = {
+			isa = PBXGroup;
+			children = (
+				D85523BA1DFC282500C941B7 /* GVImageAnalizerService.h */,
+				D85523BB1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.h */,
+				D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */,
+			);
+			name = ImageAnalizer;
+			sourceTree = "<group>";
+		};
+		D8E95BA11DFC35480026E7A5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D8E95BA21DFC356E0026E7A5 /* GVServiceAssembly.h */,
+				D8E95BA31DFC36300026E7A5 /* GVServiceAssemblyImplementation.h */,
+				D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		D8EE5FE41DFB013B00E39ABB = {
+			isa = PBXGroup;
+			children = (
+				D8EE5FEF1DFB013B00E39ABB /* GoVision */,
+				D8EE5FEE1DFB013B00E39ABB /* Products */,
+				6AD2386D16B8BF56EE100FEA /* Pods */,
+				E46CDC89B3F435559E8B1B6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8EE5FEE1DFB013B00E39ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE5FED1DFB013B00E39ABB /* GoVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8EE5FEF1DFB013B00E39ABB /* GoVision */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE60091DFB07D000E39ABB /* Classes */,
+				D8EE5FF31DFB013B00E39ABB /* AppDelegate.h */,
+				D8EE5FF41DFB013B00E39ABB /* AppDelegate.m */,
+				D8EE5FF91DFB013B00E39ABB /* Main.storyboard */,
+				D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */,
+				D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */,
+				D8EE60011DFB013B00E39ABB /* Info.plist */,
+				D8EE5FF01DFB013B00E39ABB /* Supporting Files */,
+			);
+			path = GoVision;
+			sourceTree = "<group>";
+		};
+		D8EE5FF01DFB013B00E39ABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE600B1DFB081D00E39ABB /* Rambafile */,
+				D8EE60071DFB04B100E39ABB /* Podfile */,
+				D8EE5FF11DFB013B00E39ABB /* main.m */,
+				D806BE711DFCB478008829CE /* GoVision-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8EE60091DFB07D000E39ABB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8E95BA11DFC35480026E7A5 /* Assembly */,
+				D82702CC1DFC4C0600962111 /* Extension */,
+				D82702D01DFC562A00962111 /* Helper */,
+				D85523B81DFC27E200C941B7 /* Service */,
+				D8EE600A1DFB07F400E39ABB /* VIPER */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8EE600A1DFB07F400E39ABB /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				F175F0561C53A9E192887FA8 /* Main */,
+			);
+			name = VIPER;
+			path = Classes/VIPER;
+			sourceTree = "<group>";
+		};
+		E46CDC89B3F435559E8B1B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462A15C2320E715C9E5CB019 /* libPods-GoVision.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F175F0561C53A9E192887FA8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B1F968D6C7905469FEF9CBC4 /* Assembly */,
+				27C0D4A276D54742E461BABD /* View */,
+				6214CB94965A3C32745F2615 /* Presenter */,
+				177C1DCF3EE026939ECFC090 /* Interactor */,
+				A5682F7C96F88D7BF2DDC947 /* Router */,
+			);
+			name = Main;
+			path = GoVision/Classes/VIPER/Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8EE5FEC1DFB013B00E39ABB /* GoVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EE60041DFB013B00E39ABB /* Build configuration list for PBXNativeTarget "GoVision" */;
+			buildPhases = (
+				DED5A198015AABF1BFDCCC1B /* [CP] Check Pods Manifest.lock */,
+				D8EE5FE91DFB013B00E39ABB /* Sources */,
+				D8EE5FEA1DFB013B00E39ABB /* Frameworks */,
+				D8EE5FEB1DFB013B00E39ABB /* Resources */,
+				78938BACC411ED76FD3F5DE6 /* [CP] Embed Pods Frameworks */,
+				D270A92ADD82AB85CF7AB72B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoVision;
+			productName = GoVision;
+			productReference = D8EE5FED1DFB013B00E39ABB /* GoVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8EE5FE51DFB013B00E39ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rambler&Co";
+				TargetAttributes = {
+					D8EE5FEC1DFB013B00E39ABB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7SMPM83ZV6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D8EE5FE81DFB013B00E39ABB /* Build configuration list for PBXProject "GoVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8EE5FE41DFB013B00E39ABB;
+			productRefGroup = D8EE5FEE1DFB013B00E39ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8EE5FEC1DFB013B00E39ABB /* GoVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8EE5FEB1DFB013B00E39ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EE60001DFB013B00E39ABB /* LaunchScreen.storyboard in Resources */,
+				D8EE5FFD1DFB013B00E39ABB /* Assets.xcassets in Resources */,
+				D8EE60081DFB04B100E39ABB /* Podfile in Resources */,
+				D8EE600C1DFB081D00E39ABB /* Rambafile in Resources */,
+				D8EE5FFB1DFB013B00E39ABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78938BACC411ED76FD3F5DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoVision/Pods-GoVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D270A92ADD82AB85CF7AB72B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoVision/Pods-GoVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED5A198015AABF1BFDCCC1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8EE5FE91DFB013B00E39ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */,
+				D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */,
+				D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */,
+				D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */,
+				D82702CF1DFC4C1A00962111 /* UIImage+OrientationFix.m in Sources */,
+				D8EE60211DFB09FD00E39ABB /* GVMainRouter.m in Sources */,
+				D8EE5FF21DFB013B00E39ABB /* main.m in Sources */,
+				D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */,
+				D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */,
+				D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8EE5FF91DFB013B00E39ABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8EE5FFA1DFB013B00E39ABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8EE5FFE1DFB013B00E39ABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8EE5FFF1DFB013B00E39ABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8EE60021DFB013B00E39ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8EE60031DFB013B00E39ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8EE60051DFB013B00E39ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7SMPM83ZV6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoVision/Supporting Files/GoVision-Prefix.pch";
+				INFOPLIST_FILE = GoVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1db91c98-63fb-4bdc-bf68-84a96a9e6c25";
+				PROVISIONING_PROFILE_SPECIFIER = "GoVision Development";
+			};
+			name = Debug;
+		};
+		D8EE60061DFB013B00E39ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D0336A5D9E83D71D9775D8 /* Pods-GoVision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 7SMPM83ZV6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoVision/Supporting Files/GoVision-Prefix.pch";
+				INFOPLIST_FILE = GoVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.GoVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39412e77-d2b9-486e-b0f6-2f8062c73245";
+				PROVISIONING_PROFILE_SPECIFIER = "GoVision AdHoc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8EE5FE81DFB013B00E39ABB /* Build configuration list for PBXProject "GoVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EE60021DFB013B00E39ABB /* Debug */,
+				D8EE60031DFB013B00E39ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8EE60041DFB013B00E39ABB /* Build configuration list for PBXNativeTarget "GoVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EE60051DFB013B00E39ABB /* Debug */,
+				D8EE60061DFB013B00E39ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8EE5FE51DFB013B00E39ABB /* Project object */;
+}
