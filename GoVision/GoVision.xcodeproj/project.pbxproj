@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A7501C26D225C73A248AA59 /* libPods-GoVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 462A15C2320E715C9E5CB019 /* libPods-GoVision.a */; };
+		D80EE6451DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D80EE6441DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.m */; };
+		D80EE64A1DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D80EE6491DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.m */; };
 		D82702CF1DFC4C1A00962111 /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */; };
 		D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */ = {isa = PBXBuildFile; fileRef = D85523BC1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m */; };
 		D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */; };
@@ -30,6 +32,12 @@
 		462A15C2320E715C9E5CB019 /* libPods-GoVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoVision.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D5C7D3AD593BCF13434C46 /* Pods-GoVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVision/Pods-GoVision.debug.xcconfig"; sourceTree = "<group>"; };
 		D806BE711DFCB478008829CE /* GoVision-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GoVision-Prefix.pch"; path = "Supporting Files/GoVision-Prefix.pch"; sourceTree = "<group>"; };
+		D80EE6431DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerSerializerImplementation.h; path = GoVision/Classes/Core/RequestSerializer/GVImageAnalizerSerializerImplementation.h; sourceTree = SOURCE_ROOT; };
+		D80EE6441DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVImageAnalizerSerializerImplementation.m; path = GoVision/Classes/Core/RequestSerializer/GVImageAnalizerSerializerImplementation.m; sourceTree = SOURCE_ROOT; };
+		D80EE6461DFFD394003DB7F1 /* GVImageAnalizerSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVImageAnalizerSerializer.h; path = GoVision/Classes/Core/RequestSerializer/GVImageAnalizerSerializer.h; sourceTree = SOURCE_ROOT; };
+		D80EE6471DFFD5C6003DB7F1 /* GVCoreAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVCoreAssembly.h; path = Assembly/GVCoreAssembly.h; sourceTree = "<group>"; };
+		D80EE6481DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVCoreAssemblyImplementation.h; path = Assembly/GVCoreAssemblyImplementation.h; sourceTree = "<group>"; };
+		D80EE6491DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVCoreAssemblyImplementation.m; path = Assembly/GVCoreAssemblyImplementation.m; sourceTree = "<group>"; };
 		D82702CD1DFC4C1A00962111 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OrientationFix.h"; path = "Extension/UIImage+OrientationFix.h"; sourceTree = "<group>"; };
 		D82702CE1DFC4C1A00962111 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+OrientationFix.m"; path = "Extension/UIImage+OrientationFix.m"; sourceTree = "<group>"; };
 		D82702D21DFCA30000962111 /* GVBlockHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GVBlockHelper.h; path = Helper/GVBlockHelper.h; sourceTree = "<group>"; };
@@ -139,6 +147,25 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
+		D80EE6401DFFD2CA003DB7F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D80EE6411DFFD2E8003DB7F1 /* RequestSerializer */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D80EE6411DFFD2E8003DB7F1 /* RequestSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				D80EE6461DFFD394003DB7F1 /* GVImageAnalizerSerializer.h */,
+				D80EE6431DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.h */,
+				D80EE6441DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.m */,
+			);
+			name = RequestSerializer;
+			path = Core/RequestSerializer;
+			sourceTree = "<group>";
+		};
 		D82702CC1DFC4C0600962111 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +207,9 @@
 				D8E95BA21DFC356E0026E7A5 /* GVServiceAssembly.h */,
 				D8E95BA31DFC36300026E7A5 /* GVServiceAssemblyImplementation.h */,
 				D8E95BA41DFC36300026E7A5 /* GVServiceAssemblyImplementation.m */,
+				D80EE6471DFFD5C6003DB7F1 /* GVCoreAssembly.h */,
+				D80EE6481DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.h */,
+				D80EE6491DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.m */,
 			);
 			name = Assembly;
 			sourceTree = "<group>";
@@ -232,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E95BA11DFC35480026E7A5 /* Assembly */,
+				D80EE6401DFFD2CA003DB7F1 /* Core */,
 				D82702CC1DFC4C0600962111 /* Extension */,
 				D82702D01DFC562A00962111 /* Helper */,
 				D85523B81DFC27E200C941B7 /* Service */,
@@ -396,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EE5FF51DFB013B00E39ABB /* AppDelegate.m in Sources */,
+				D80EE6451DFFD388003DB7F1 /* GVImageAnalizerSerializerImplementation.m in Sources */,
 				D8EE601D1DFB09F300E39ABB /* GVMainInteractor.m in Sources */,
 				D8EE60141DFB09E100E39ABB /* GVMainViewController.m in Sources */,
 				D85523BD1DFC286A00C941B7 /* GVImageAnalizerServiceImplemenation.m in Sources */,
@@ -405,6 +437,7 @@
 				D8EE600F1DFB09D600E39ABB /* GVMainAssembly.m in Sources */,
 				D8E95BA51DFC36300026E7A5 /* GVServiceAssemblyImplementation.m in Sources */,
 				D8EE60181DFB09EB00E39ABB /* GVMainPresenter.m in Sources */,
+				D80EE64A1DFFD5F8003DB7F1 /* GVCoreAssemblyImplementation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
