@@ -16,7 +16,7 @@ static NSString * const GVUploadServerHost = @"http://20161210t161505-dot-go-boo
 @implementation GVImageAnalizerSerializerImplementation
 
 - (NSURLRequest *)requestForUploadImage:(UIImage *)image {
-    NSData *imageData = UIImageJPEGRepresentation(image, 0.35);
+    NSData *imageData = UIImageJPEGRepresentation(image, 1.0);
     NSError *error;
     
     AFHTTPRequestSerializer *requestSerializer = [AFHTTPRequestSerializer new];
