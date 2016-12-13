@@ -5,23 +5,16 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GoVision' do
     # Model & Network
-    pod 'EasyMapping', '0.6.3'
     pod 'AFNetworking', '2.6.3'
     pod 'AFNetworkActivityLogger', '2.0.4'
-    pod 'Reachability', '3.2'
-    pod 'Nimbus/Models', :git => 'https://github.com/rambler-ios/nimbus.git', :commit => 'f87fc967a359b6977e7fa153494d8b85a61d0dc1'
-    pod 'SDWebImage', '3.7.1'
-    pod 'XMLReader', '0.0.2'
     
     # UI
-    pod 'PureLayout', '3.0.2'
     pod 'PEPhotoCropEditor', '1.3.1'
     
     # Helpers
     pod 'ViperMcFlurry', '1.5.2'
     pod 'Typhoon', '3.3.4'
     pod 'RamblerTyphoonUtils/AssemblyCollector', '1.5.0'
-    pod 'RamblerSegues', '1.1.2'
 end
 
 post_install do |installer|
