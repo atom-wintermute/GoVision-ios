@@ -55,7 +55,7 @@
 		D8EE5FFC1DFB013B00E39ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8EE5FFF1DFB013B00E39ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8EE60011DFB013B00E39ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D8EE60071DFB04B100E39ABB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8EE600B1DFB081D00E39ABB /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
 		D8EE600D1DFB09D600E39ABB /* GVMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVMainAssembly.h; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.h; sourceTree = SOURCE_ROOT; };
 		D8EE600E1DFB09D600E39ABB /* GVMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVMainAssembly.m; path = GoVision/Classes/VIPER/Main/Assembly/GVMainAssembly.m; sourceTree = SOURCE_ROOT; };
