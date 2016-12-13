@@ -13,6 +13,10 @@
 
 #import "GVServiceAssembly.h"
 
+@protocol GVCoreAssembly;
+
 @interface GVServiceAssemblyImplementation : TyphoonAssembly <GVServiceAssembly, RamblerInitialAssembly>
+
+@property (nonatomic, strong, readonly) TyphoonAssembly<GVCoreAssembly> *coreAssembly;
 
 @end

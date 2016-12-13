@@ -11,12 +11,18 @@
 #import "TyphoonDefinition+Infrastructure.h"
 #import "TyphoonConfigPostProcessor.h"
 
+#import "GVCoreAssembly.h"
+
 #import "GVImageAnalizerServiceImplemenation.h"
 
 @implementation GVServiceAssemblyImplementation
 
 - (id<GVImageAnalizerService>)imageAnalizerService {
-    return [TyphoonDefinition withClass:[GVImageAnalizerServiceImplemenation class]];
+    return [TyphoonDefinition withClass:[GVImageAnalizerServiceImplemenation class]
+                          configuration:^(TyphoonDefinition *definition) {
+                              [definition injectProperty:@selector(requestSerializer)
+                                                    with:[self.coreAssembly imageAnalizerSerializer]];
+    }];
 }
 
 @end
