@@ -10,6 +10,10 @@
 
 #import "GVImageAnalizerService.h"
 
+@protocol GVImageAnalizerSerializer;
+
 @interface GVImageAnalizerServiceImplemenation : NSObject <GVImageAnalizerService>
+
+@property (nonatomic, strong) id<GVImageAnalizerSerializer> requestSerializer;
 
 @end
